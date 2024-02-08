@@ -3,8 +3,8 @@ import iconImg from "../images/icon.png";
 
 export const Seo = ({ title, description, pathname, children }) => {
 	// const { title: defaultTitle, description: defaultDescription, image, siteUrl, twitterUsername } = useSiteMetadata();
-	const defaultTitle = "Sriprasad";
-	const defaultDescription = "Sriprasad";
+	const defaultTitle = "Sri Prasad";
+	const defaultDescription = "Sri Prasad";
 	const siteUrl = "https://sriprasad.org";
 	const image = iconImg;
 	const seo = {

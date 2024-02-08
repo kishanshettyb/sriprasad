@@ -16,7 +16,6 @@ const NavHeader = () => {
 					<Nav className="m-auto my-2 my-lg-0" style={{ maxHeight: "500px" }} navbarScroll>
 						<Nav.Link href="#action1">Home</Nav.Link>
 						<Nav.Link href="#action1">About Him</Nav.Link>
-						<Nav.Link href="#action2">Work</Nav.Link>
 						<NavDropdown title="Teaching" id="navbarScrollingDropdown">
 							<NavDropdown.Item href="#action3">Eshwari Kriya</NavDropdown.Item>
 							<NavDropdown.Divider />
@@ -25,6 +24,15 @@ const NavHeader = () => {
 							<NavDropdown.Item href="#action5">Immortal Process</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action5">Eshwari Kalavahana</NavDropdown.Item>
+						</NavDropdown>
+						<NavDropdown title="Events" id="navbarScrollingDropdown">
+							<NavDropdown.Item href="#action3">Aham to Shivam</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item href="#action4">Nava Rathri</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item href="#action5">Sri Kari</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item href="#action5">Sri Naada</NavDropdown.Item>
 						</NavDropdown>
 						<NavDropdown title="Projects" id="navbarScrollingDropdown">
 							<NavDropdown.Item href="#action3">I and You Green</NavDropdown.Item>
@@ -49,7 +57,6 @@ const NavHeader = () => {
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action3">Sri (Lakshmi)</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link href="#action1">Sadhana</Nav.Link>
 						<Nav.Link href="#action1">Contact</Nav.Link>
 					</Nav>
 					{/* <Form className="d-flex">

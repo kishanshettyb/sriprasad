@@ -1,0 +1,40 @@
+// Custom.scss
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions.scss";
+
+// 2. Include any default variable overrides here
+$primary: #f66351;
+$dark: #0d0a19;
+$white: #fff;
+$teal: #20c997;
+$dark-1: #00000040;
+$dark-2: #050309f7;
+$cyan: #0dcaf0;
+$light: #adb5bd;
+$black: #000;
+$darknew: #050309ed;
+$pink: #ff4566;
+$gray: #4e4e4e;
+
+$theme-colors: (
+	"primary": $primary,
+	"teal": $teal,
+	"dark-1": $dark-1,
+	"dark-2": $dark-2,
+	"cyan": $cyan,
+	"light": $light,
+	"white": $white,
+	"black": $black,
+	"darknew": $darknew,
+	"pink": $pink,
+	"gray": $gray
+);
+// 3. Include remainders of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../node_modules/bootstrap/scss/variables.scss";
+@import "../../node_modules/bootstrap/scss/variables-dark.scss";
+
+// 4. Include any default map overrides here
+
+// 5. Import all the rest of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

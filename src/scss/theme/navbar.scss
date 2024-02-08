@@ -1,11 +1,16 @@
 .navbar-bg {
-	background: linear-gradient(0deg, rgba(253, 128, 45, 0.328169), rgba(253, 128, 45, 0.0844713));
+	background: linear-gradient(0deg, rgba(253, 128, 45, 0.0844713), rgba(253, 128, 45, 0.328169));
 	background-repeat: no-repeat;
+
 	.navbar-toggler {
 		color: $primary;
 	}
+
 	.sriprasd-logo {
-		width: 100px;
+		width: 70px;
+		@media (min-width: 768px) {
+			width: 100px;
+		}
 		height: auto;
 	}
 	.nav-link {
@@ -14,7 +19,7 @@
 		@media (min-width: 1200px) {
 			padding: 20px 0;
 		}
-		opacity: 0.8 !important;
+		opacity: 0.9 !important;
 		&:hover {
 			color: $primary !important;
 			opacity: 1 !important;
@@ -31,7 +36,22 @@
 		}
 		background-color: #fefbfa3d;
 		border-radius: 15px;
-		border: 1px solid #ffc5a6;
+		border: 1px solid #ffc5a670;
+	}
+
+	&.fixed-top {
+		background: #fff !important;
+		transition: 0.5s ease-in-out;
+		.sriprasd-logo {
+			width: 60px;
+			height: auto;
+		}
+		.navbar-collapse {
+			@media (min-width: 768px) {
+				padding: 0;
+			}
+			border: 1px solid #ffc5a699;
+		}
 	}
 }
 

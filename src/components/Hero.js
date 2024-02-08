@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import FirstImg from "../images/hero/img-1.jpeg";
 import SecondImg from "../images/hero/img-2.jpeg";
 import ThirdImg from "../images/hero/img-4.png";
-import Line from "../images/others/line-2.png";
 import Carousel from "react-bootstrap/Carousel";
 import { StaticImage } from "gatsby-plugin-image";
 

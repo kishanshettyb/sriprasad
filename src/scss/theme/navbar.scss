@@ -1,9 +1,11 @@
 .navbar-bg {
 	background: linear-gradient(0deg, rgba(253, 128, 45, 0.328169), rgba(253, 128, 45, 0.0844713));
 	background-repeat: no-repeat;
+
 	.navbar-toggler {
 		color: $primary;
 	}
+
 	.sriprasd-logo {
 		width: 100px;
 		height: auto;
@@ -32,6 +34,21 @@
 		background-color: #fefbfa3d;
 		border-radius: 15px;
 		border: 1px solid #ffc5a6;
+	}
+
+	&.fixed-top {
+		background: #fff !important;
+		transition: 0.5s ease-in-out;
+		.sriprasd-logo {
+			width: 60px;
+			height: auto;
+		}
+		.navbar-collapse {
+			@media (min-width: 768px) {
+				padding: 0;
+			}
+			border: 1px solid #ffc5a699;
+		}
 	}
 }
 

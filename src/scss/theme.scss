@@ -2,6 +2,7 @@
 @import "./theme/navbar.scss";
 @import "./theme/card.scss";
 @import "./theme/slider.scss";
+@import "./theme/footer.scss";
 
 // ----- Fonts ----- //
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
@@ -11,6 +12,10 @@
 body {
 	background-color: $white;
 	font-family: "Lora", serif;
+	font-weight: 500;
+	p {
+		font-weight: normal;
+	}
 }
 section {
 	padding: 60px 0;

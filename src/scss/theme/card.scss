@@ -1,11 +1,17 @@
 .iandyou-card-section {
 	background-color: $white;
-	@media (min-width: 1400px) {
-		.container-xxl,
-		.container-xl,
-		.container-lg,
-		.container-md,
-		.container-sm,
+
+	@media (min-width: 768px) {
+		.container {
+			max-width: 580px;
+		}
+	}
+	@media (min-width: 992px) {
+		.container {
+			max-width: 960px;
+		}
+	}
+	@media (min-width: 1200px) {
 		.container {
 			max-width: 1140px;
 		}
@@ -18,10 +24,6 @@
 		-moz-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		-moz-text-fill-color: transparent;
-	}
-
-	.line {
-		width: 275px;
 	}
 
 	.title {
@@ -207,7 +209,10 @@
 	}
 
 	.center_item {
-		flex-basis: 420px;
+		flex-basis: 300px;
+		@media (min-width: 992px) {
+			flex-basis: 420px;
+		}
 		height: 600px;
 		z-index: 111;
 	}
@@ -224,4 +229,11 @@
 	-moz-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
+}
+
+.line {
+	width: 60%;
+	@media (min-width: 768px) {
+		width: 255px;
+	}
 }

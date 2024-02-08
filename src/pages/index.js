@@ -1,12 +1,12 @@
 import React from "react";
+import Hero from "../components/Hero";
 import NavHeader from "../components/NavHeader";
 
 const IndexPage = () => {
 	return (
 		<>
 			<NavHeader />
-			{/* <h1 className="text-black display-1 fw-bold text-center font-italic">I And You Being Together</h1> */}
-			{/* <h2 className="text-black display-1 fw-bold text-center font-italic">Sangachadwam</h2> */}
+			<Hero />
 		</>
 	);
 };

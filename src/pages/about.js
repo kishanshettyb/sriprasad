@@ -257,41 +257,6 @@ const about = () => {
 					<p>The organization functions under the thriving service of its volunteers from India and various countries has illumined the lives of several million people.</p>
 				</Container>
 			</section>
-			<section className="iandyou-green-section">
-				<Container>
-					<h2 className="display-5 text-black fw-bold mb-4 mt-5">I AND YOU GREEN: Environmental initiatives</h2>
-					<p>I and you being together Foundation has Project I and You Green a Neem saplings plantation project was established in 2012 as an environmental awareness program</p>
-					<p>Its activity is largely focused on Karnataka, Tamil Nadu and parts of Telangana.</p>
-					<p>
-						The organization's activities include Mini forestation, Lake rejuvenations and Tree-planting in centers such as Bangalore, Mysore, Belgaum and Bellary in Karnataka.
-						Chennai, Salam, Coimbatore, Madurai, Trichy and Dharmapuri in Tamil Nadu. Kurnool, Ananthpur and Hyderabad
-					</p>
-					<p>
-						under the project I and you-Green has taken an initiative, a Neem revolution where each year, starting from 10th June, NEEM saplings have been planted for the plethora
-						of benefits it possesses and implementation of Mini Forestation to create small forests in the city's no man's land to help conserve ground water and depleting Birds
-						and Bee population
-					</p>
-					<p>
-						Through this project Neem Saplings are introduced to plant and instill a sense of environmental awareness amongst the youth. Considering it as a form of green activism
-						through saplings planting and to create disease free world. A huge network of volunteers is welcome to support the cause. The act of implementing this project in major
-						Indian cities and countries abroad simultaneously on 10th June was merely an idea to create a realistic approach and execute the plan of a greener environment starting
-						from the Environmental Day which falls the 5th of June and to finish off on10th June every year with the support of social servants, actors and famous personalities.
-					</p>
-					<p>
-						On the concluding note we are happy to announce that 5000 neem saplings from 2013 and 2.5 Lakh or more were planted till 2020 with implementation of the tracking and
-						complaint facility. Residents could easily lodge a complaint if the saplings were unattended or were not nurtured in the beginning 2-6months of planting and we had our
-						volunteers track the growth of saplings and register the same.
-					</p>
-					<p>
-						Each locality was mapped with respect to the locations where the planting was done to make tracking easier as per our projection, we are happy to inform that we have
-						<b>succeeded to plant 2.5 Lakh saplings</b> have planted till 2019 out of 2.5 Lakh 60% of saplings are alive.
-					</p>
-					<h3 className="fw-bold">SRI KRISHI:</h3>
-					<p>His quote: We are Just In a committed relationship, I Inhale Love of the mother nature and Exhale Gratitude towards cosmic mother,</p>
-					<p className="special-title fs-2">"I breathe for you, you breathe for me, I and You Being Together”</p>
-					<p>-Sri Prasad</p>
-				</Container>
-			</section>
 		</Layout>
 	);
 };

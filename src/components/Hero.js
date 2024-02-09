@@ -1,9 +1,9 @@
 import { Link } from "gatsby";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import FirstImg from "../images/hero/img-1.jpeg";
-import SecondImg from "../images/hero/img-2.jpeg";
-import ThirdImg from "../images/hero/img-4.png";
+import FirstImg from "../images/hero/hero-2.png";
+import SecondImg from "../images/hero/hero-1.png";
+import ThirdImg from "../images/hero/hero-3.png";
 import Carousel from "react-bootstrap/Carousel";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -19,7 +19,7 @@ const Hero = () => {
 									<Link to="about" className="grid-item">
 										<div className="grid-item__image" style={{ backgroundImage: `url(${FirstImg})` }}></div>
 										<div className="grid-item__hover"></div>
-										<div className="title">I</div>
+										{/* <div className="title">I</div> */}
 									</Link>
 								</div>
 							</div>
@@ -30,7 +30,7 @@ const Hero = () => {
 									<Link to="iandyou" className="grid-item">
 										<div className="grid-item__image" style={{ backgroundImage: `url(${SecondImg})` }}></div>
 										<div className="grid-item__hover"></div>
-										<div className="title">You</div>
+										{/* <div className="title">You</div> */}
 									</Link>
 								</div>
 							</div>
@@ -41,7 +41,7 @@ const Hero = () => {
 									<Link to="#" className="grid-item">
 										<div className="grid-item__image" style={{ backgroundImage: `url(${ThirdImg})` }}></div>
 										<div className="grid-item__hover"></div>
-										<div className="title">We</div>
+										{/* <div className="title">We</div> */}
 									</Link>
 								</div>
 							</div>
@@ -52,26 +52,17 @@ const Hero = () => {
 			<div className="d-block d-md-none hero-mobile-slider">
 				<Carousel fade>
 					<Carousel.Item interval={1500}>
-						<StaticImage className="slider-image" src="../images/hero/slider-1.png" alt="SriPrasad" />
-						<Carousel.Caption>
-							<h1>I</h1>
-						</Carousel.Caption>
+						<StaticImage className="slider-image" src="../images/hero/hero-2.png" alt="SriPrasad" />
 					</Carousel.Item>
 					<Carousel.Item interval={1500}>
-						<StaticImage className="slider-image" src="../images/hero/slider-2.png" alt="SriPrasad" />
-						<Carousel.Caption>
-							<h1>You</h1>
-						</Carousel.Caption>
+						<StaticImage className="slider-image" src="../images/hero/hero-1.png" alt="SriPrasad" />
 					</Carousel.Item>
 					<Carousel.Item interval={1500}>
-						<StaticImage className="slider-image" src="../images/hero/slider-3.png" alt="SriPrasad" />
-						<Carousel.Caption>
-							<h1>We</h1>
-						</Carousel.Caption>
+						<StaticImage className="slider-image" src="../images/hero/hero-3.png" alt="SriPrasad" />
 					</Carousel.Item>
 				</Carousel>
 			</div>
-			<section className="pt-0">
+			<section className="pt-0 d-none">
 				<div className="text-center ">
 					<h2 className="  display-4 fw-bold text-center mt-5">
 						I And You Being Together

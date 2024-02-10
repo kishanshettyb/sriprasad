@@ -64,7 +64,7 @@ const Workshop = () => {
 						</Col>
 						<Col md={3}>
 							<div className="basic-card">
-								<StaticImage className="card-image" src="../images/workshops/eshwari_dhyana.jpg" alt="Eshwari Dhyana" />
+								<StaticImage className="card-image" src="../images/workshops/dhyana.png" alt="Eshwari Dhyana" />
 								<div className="content">
 									<h2>Eshwari Dhyana</h2>
 									<p>
@@ -76,7 +76,7 @@ const Workshop = () => {
 						</Col>
 						<Col md={3}>
 							<div className="basic-card">
-								<StaticImage className="card-image" src="../images/workshops/immortal_process.jpeg" alt="Immortal Process" />
+								<StaticImage className="card-image" src="../images/workshops/immortal_process_new.png" alt="Immortal Process" />
 								<div className="content">
 									<h2>Immortal Process</h2>
 									<p>
@@ -88,7 +88,7 @@ const Workshop = () => {
 						</Col>
 						<Col md={3}>
 							<div className="basic-card">
-								<StaticImage className="card-image" src="../images/workshops/srividya.jpg" alt="Sri Vidhya Eshwari Sadhana Level - 1" />
+								<StaticImage className="card-image" src="../images/workshops/sadhana.png" alt="Sri Vidhya Eshwari Sadhana Level - 1" />
 								<div className="content">
 									<h2>Sri Vidhya Eshwari Sadhana Level - 1 </h2>
 									<p>

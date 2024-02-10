@@ -21,27 +21,27 @@ const Footer = () => {
 						<h6 className="mb-3">Social Media</h6>
 						<ul className="social-media">
 							<li>
-								<a href="#">
+								<a rel="noreferrer" target="_blank" href="https://www.facebook.com/iandyou.org">
 									<StaticImage className="icon" src="../images/social/facebook.svg" alt="Sri Prasad Facebook" />
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a rel="noreferrer" target="_blank" href="https://www.instagram.com/iandyoubeingtogether">
 									<StaticImage className="icon" src="../images/social/instagram.svg" alt="Sri Prasad instagram" />
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/">
 									<StaticImage className="icon" src="../images/social/youtube.svg" alt="Sri Prasad youtube" />
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/">
 									<StaticImage className="icon" src="../images/social/twitter.svg" alt="Sri Prasad twitter" />
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/">
 									<StaticImage className="icon" src="../images/social/linkedin.svg" alt="Sri Prasad linkedin" />
 								</a>
 							</li>
@@ -51,22 +51,22 @@ const Footer = () => {
 						<h6 className="mb-4 mt-4 mt-md-0">Projects</h6>
 						<ul>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									I and You Green
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									I and You Vidhya
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Punarjeevana
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Sanskara
 								</Link>
 							</li>
@@ -74,22 +74,22 @@ const Footer = () => {
 						<h6 className="events-top">Events</h6>
 						<ul>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Aham to Shivam
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Nava Rathri
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Sri Kari
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Sri Naada
 								</Link>
 							</li>
@@ -99,47 +99,47 @@ const Footer = () => {
 						<h6 className="mb-4 mt-4 mt-md-0">Quick Links</h6>
 						<ul>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Eshwari Kriya
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Sri Vidhya Eshwari Sadhana{" "}
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Immortal Process
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Eshwari Kalavahana
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									I And You Vidya
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									I And You
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Donate
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									Blog
 								</Link>
 							</li>
 							<li>
-								<Link to="#" className="links">
+								<Link to="/" className="links">
 									FAQ
 								</Link>
 							</li>
@@ -188,7 +188,7 @@ const Footer = () => {
 					</Col>
 					<Col xs={6} md={4} lg={3}>
 						<h6 className="mb-4 mt-4 mt-md-0">Contact</h6>
-						<a href="#" className="address-a">
+						<a href="/" className="address-a">
 							1460, Behind Sri. Vasuki Naga Eshwari Temple, HAF (P) Kaveri Layout, Hebbal, <br />
 							Dasarahalli, Bangalore, <br />
 							Karnataka 560024.
@@ -203,8 +203,8 @@ const Footer = () => {
 							<p>&copy; 2024 I and You Foundation. All Rights Reserved.</p>
 						</Col>
 						<Col md={6}>
-							<a href="#">Privacy Policy</a>
-							&nbsp; &nbsp; | &nbsp; &nbsp;<a href="#">Terms and conditions</a>
+							<a href="/">Privacy Policy</a>
+							&nbsp; &nbsp; | &nbsp; &nbsp;<a href="/">Terms and conditions</a>
 						</Col>
 					</Row>
 				</Container>

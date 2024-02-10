@@ -31,27 +31,27 @@ const about = () => {
 							<h6 className="mb-3 fw-bold">Social Media</h6>
 							<ul className="social-media">
 								<li>
-									<a href="#">
+									<a target="_blank" rel="noreferrer" href="https://www.facebook.com/iandyou.org">
 										<StaticImage className="icon" src="../images/social/facebook.svg" alt="Sri Prasad Facebook" />
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a target="_blank" rel="noreferrer" href="https://www.instagram.com/iandyoubeingtogether">
 										<StaticImage className="icon" src="../images/social/instagram.svg" alt="Sri Prasad instagram" />
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="/">
 										<StaticImage className="icon" src="../images/social/youtube.svg" alt="Sri Prasad youtube" />
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="/">
 										<StaticImage className="icon" src="../images/social/twitter.svg" alt="Sri Prasad twitter" />
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="/">
 										<StaticImage className="icon" src="../images/social/linkedin.svg" alt="Sri Prasad linkedin" />
 									</a>
 								</li>

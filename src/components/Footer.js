@@ -13,7 +13,7 @@ const Footer = () => {
 						<p className="me-0 me-lg-5">
 							<b>Sri Prasad</b>, one of the eminent new age master of Spiritual Yogic Science, imparting knowledge through Yogic Science in the name of Eshwari sadhana.{" "}
 						</p>
-						<Link to="/about">
+						<Link to="/about/">
 							<Button className="mb-4" variant="outline-primary mb-5" size="sm">
 								Read More
 							</Button>
@@ -74,16 +74,24 @@ const Footer = () => {
 						<h6 className="events-top">Events</h6>
 						<ul>
 							<li>
-								<Link className="links">Aham to Shivam</Link>
+								<Link to="#" className="links">
+									Aham to Shivam
+								</Link>
 							</li>
 							<li>
-								<Link className="links">Nava Rathri</Link>
+								<Link to="#" className="links">
+									Nava Rathri
+								</Link>
 							</li>
 							<li>
-								<Link className="links">Sri Kari</Link>
+								<Link to="#" className="links">
+									Sri Kari
+								</Link>
 							</li>
 							<li>
-								<Link className="links">Sri Naada</Link>
+								<Link to="#" className="links">
+									Sri Naada
+								</Link>
 							</li>
 						</ul>
 					</Col>

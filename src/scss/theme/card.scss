@@ -237,3 +237,63 @@
 		width: 255px;
 	}
 }
+
+.default-section {
+	.carousel-indicators [data-bs-target] {
+		background-color: $primary;
+		height: 6px;
+		border-radius: 10px;
+		width: 15px;
+		&.active {
+			width: 30px;
+		}
+	}
+	.carousel-indicators {
+		bottom: -40px;
+	}
+}
+
+// ---------- Start Basic Card -------- //
+
+.line-clamp {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.basic-card {
+	border-radius: 20px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	padding: 20px;
+	margin: 30px 20px;
+	width: 90%;
+	&:hover {
+		box-shadow: 0 10px 25px 10px rgba(255, 149, 0, 0.884);
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+		border: 1px solid $primary;
+	}
+	.content {
+		height: 150px;
+	}
+	.card-image {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+		border-radius: 20px;
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		color: $black;
+		font-weight: 600;
+	}
+	p {
+		opacity: 0.6;
+		@extend .line-clamp;
+	}
+}
+// ---------- End Basic Card -------- //

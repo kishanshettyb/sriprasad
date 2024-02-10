@@ -22,7 +22,7 @@ const NavHeader = () => {
 		<Navbar expand="lg" className={`navbar-bg   ${scrolltopdata}`}>
 			<Container>
 				<Navbar.Brand href="/">
-					<StaticImage className="sriprasd-logo me-md-5 me-0" src="../images/logo/sriprasad.png" alr="Sri Prasad" />
+					<StaticImage className="sriprasd-logo me-md-5 me-0" src="../images/logo/sriprasad.png" alt="Sri Prasad" />
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="navbarScroll" />
 				<Navbar.Collapse id="navbarScroll">

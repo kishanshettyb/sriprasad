@@ -64,7 +64,7 @@ const about = () => {
 			<section className="education-section">
 				<Container>
 					<Row>
-						<Col md={6}>
+						<Col md={12}>
 							<h2 className="display-6 text-black fw-bold mb-4">Early life and education</h2>
 							<p>
 								M. Naveen Prasad well known as Sri prasad, was born on 18 October 1974 in Bangalore, Karnataka, India, on the occasion of Ramadan and Navarathri, to a Kannada
@@ -88,9 +88,7 @@ const about = () => {
 			<section>
 				<Container>
 					<Row>
-						<Col md={6}></Col>
-
-						<Col md={6}>
+						<Col md={12}>
 							<h2 className="display-6 text-black fw-bold mb-4">Story of His Birth</h2>
 							<p>
 								For want of child the couple with their family set out to a pilgrimage to Dharmasthala, Mangalore located in the midst of a thick rain forest, a popular place where
@@ -152,99 +150,6 @@ const about = () => {
 				</Container>
 			</section>
 
-			<section>
-				<Container>
-					<h2 className="display-6 text-black fw-bold mb-4">His Family</h2>
-
-					<p>Sri Prasad married Pallavi. RM in the year 1999, a home maker and are blessed with two daughters.</p>
-				</Container>
-			</section>
-			<section className="spiritual-section">
-				<Container>
-					<Row>
-						<Col md={12}>
-							<h2 className="display-5 text-black fw-bold mb-4 text-center">Spiritual life</h2>
-							<div className="text-center">
-								<StaticImage src="../images/others/line-2.png" alt="line" className="line" />
-							</div>
-							<h2 className="display-6 text-black fw-bold mb-4 mt-5">His Spiritual Protection</h2>
-							<p>
-								As a 12yr old boy, during his winter vacations he would always go and sit in the middle of a peepal tree and Jamun Tree which are house in a distant opposite to his
-								house for studying, while studying he witnesses an incident where a cowherd signals from a far distance for him not to move and stay still, not knowing what he is
-								actually saying the boy nods an ok and continues to read on, then the cowherd slow walks close the boy and tells him to stay rock still and while the confused boy
-								moves a bit and looks for some kind of a movement behind him and what he witnesses is a huge King Cobra that sweeps fast to his right side and moves away, on
-								witnessing it the boy becomes still in blankness and the cowherd rushes to grab the kid and tells him that you are a blessed child and the snake was standing right
-								behind your back as if it was protecting you, the boy goes home and shares this incidence with his parents and they narrate to him of how in the there were stories
-								of snakes guarding great spiritual beings. After several years that same place now is a temple for snake deities.
-							</p>
-							<p>
-								<b>2nd Incident:</b>
-							</p>
-							<p>
-								As a mid-aged man when he had moved to Bangalore he could see 3 cobras of rare complexion white, yellow and gold would always come and stand at his door entrance
-								and right next to his house was a attached an old ruined temple and he was convinced that the snakes could come from that place and after a few days Sri Prasad puts
-								up this question to his Guruji and he in turn with his divine ability sees it and asks tells him that they are coming to him seeking for renovation of the temple
-								and when the renovation takes place the snakes stop visiting him. A few weeks later when the foundation was laid and a Trident was placed Sri Prasad thinks of
-								security for the trident since nobody would live around the place and from then on the snakes were witnessed to have come and guard it.
-							</p>
-
-							<p>
-								Now the place is a popular temple which houses 9 naga deities which is rare and one of a kind, the temple is famous for Naga worship along with the main deity being
-								Sri Vasukinaga Eshwari and even special because for providing remedies to people with Naga Doshas(Serpent Curse as can be found prominent in the birth chart of a
-								person which provides ill health, trouble in marriages or no marriage, trouble in getting a child and so on).
-							</p>
-
-							<p>
-								With the urge to acquire more knowledge of the yogic science, he had learnt from various Siddhas and Yogis which had brought him to a conclusion that something
-								greater was awaiting his upliftment; away from stereotypical religious life to selfless spiritual living.
-							</p>
-							<p>
-								Finally, the questions that changed the course of his life. Does God really exist? If he exists then why are people suffering? The craving to find answers to his
-								questions had finally reached a peak.
-							</p>
-						</Col>
-						<Col md={6}></Col>
-						<Col md={6}>
-							<h2 className="display-5 text-black fw-bold mb-4 mt-5">Realization at Siddharabetta</h2>
-							<p>
-								On the 27th August 2007 night on full Lunar eclipse, a full moon night under the bright rays of the moon he had seated with closed eyes and as the earth blocked the
-								way of light darkening the rays of moon during total lunar eclipse that had encompassed light, the prevailing darkness which had eventually tarnished the eclipse in
-								his mind which had blocked him; at Rudra gavi (the cave of Rudra), a cave in Siddharabetta (the mystic's hill), having seated secluded with closed eyes he had
-								forgotten himself for 36hours unknown of the time and space, those moments had finally brought him to realization of existential cosmic and self-reality that
-								eventually had changed his quest for spiritual seeking that God really exists and each individual is responsible for his/her own sufferings and he had also found
-								the remedy for those sufferings through free counseling twice a week using traditional methods and therapeutic benefits along with Eshawri Kriya from which millions
-								of people have been benefited
-							</p>
-						</Col>
-					</Row>
-				</Container>
-			</section>
-			<section className="workshop-section">
-				<Container>
-					<Row>
-						<Col>
-							<h2 className="display-5 text-black fw-bold mb-4 mt-5">Yoga workshops - Eshwari Kriya</h2>
-							<p>
-								The impact of realization gave rise to Eshwari Sadhana - Yogic Shakta Srividhya, Sri Prasad began teaching Yogic Science in 2008 by the name Eshwari Kriya to create
-								a disease-free, stress-free and holistic living
-							</p>
-							<p>
-								'Eshwari Kriya' a 20-minute unique yogic technique derived from age old scripture called Vigyan Bhairav Tantra a Chapter From 'Rudra Yamala Tantra', Eshwari means
-								Universal Transcendental consciousness, Kriya means the technique, a technique of unifying with the Universal Transcendental consciousness.
-							</p>
-							<p>
-								Eshwari Kriya is a capsule form of Sri Vidhya yogic science, a practice which includes levels of Yogic techniques, Meditations and Process based workshops has been
-								practiced by practitioners from India and overseas.
-							</p>
-							<p>
-								In 2008, he taught his first Eshwari Kriya technique in Bangalore, began conducting Eshwari kriya classes to his closely known people, once he realized the positive
-								effect of the Eshwari kriya on Physical, Psychological, Emotional levels as well as its healing effect on Psychosomatic problems he started teaching it to the
-								general public from the Year of 2012 across Karnataka, Chennai and Hyderabad with his busy Pharmaceuticals sales and marketing job.
-							</p>
-						</Col>
-					</Row>
-				</Container>
-			</section>
 			<section>
 				<Container>
 					<h2 className="display-5 text-black fw-bold mb-4 mt-5">Founding of an Organization</h2>

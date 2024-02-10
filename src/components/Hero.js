@@ -6,6 +6,7 @@ import SecondImg from "../images/hero/hero-1.png";
 import ThirdImg from "../images/hero/hero-3.png";
 import Carousel from "react-bootstrap/Carousel";
 import { StaticImage } from "gatsby-plugin-image";
+import BasicCard from "./BasicCard";
 
 const Hero = () => {
 	return (
@@ -19,7 +20,6 @@ const Hero = () => {
 									<Link to="about" className="grid-item">
 										<div className="grid-item__image" style={{ backgroundImage: `url(${FirstImg})` }}></div>
 										<div className="grid-item__hover"></div>
-										{/* <div className="title">I</div> */}
 									</Link>
 								</div>
 							</div>
@@ -30,7 +30,6 @@ const Hero = () => {
 									<Link to="iandyou" className="grid-item">
 										<div className="grid-item__image" style={{ backgroundImage: `url(${SecondImg})` }}></div>
 										<div className="grid-item__hover"></div>
-										{/* <div className="title">You</div> */}
 									</Link>
 								</div>
 							</div>
@@ -41,7 +40,6 @@ const Hero = () => {
 									<Link to="#" className="grid-item">
 										<div className="grid-item__image" style={{ backgroundImage: `url(${ThirdImg})` }}></div>
 										<div className="grid-item__hover"></div>
-										{/* <div className="title">We</div> */}
 									</Link>
 								</div>
 							</div>
@@ -62,14 +60,12 @@ const Hero = () => {
 					</Carousel.Item>
 				</Carousel>
 			</div>
-			<section className="pt-0 d-none">
+			<section className="pt-0">
 				<div className="text-center ">
-					<h2 className="  display-4 fw-bold text-center mt-5">
-						I And You Being Together
-						<br />
-						<span className="gradient-text text-primary">Let's move together</span>
+					<h2 className="w-75 m-auto display-2 fw-bolder text-center mt-5">
+						"I am here to introduce you to <span className="text-primary">your self</span>"
 					</h2>
-					<h3 className="special-title display-4 pt-3">- Sangachadwam</h3>
+					<h3 className="special-title display-4 pt-3">- Sri Prasad</h3>
 					<div className="text-center">
 						<StaticImage src="../images/others/line-2.png" alt="line" className="line" />
 					</div>

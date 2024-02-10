@@ -6,7 +6,6 @@ import SecondImg from "../images/hero/hero-1.png";
 import ThirdImg from "../images/hero/hero-3.png";
 import Carousel from "react-bootstrap/Carousel";
 import { StaticImage } from "gatsby-plugin-image";
-import BasicCard from "./BasicCard";
 
 const Hero = () => {
 	return (

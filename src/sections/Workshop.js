@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Carousel } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
 
@@ -7,7 +7,6 @@ const Workshop = () => {
 	var settings = {
 		dots: true,
 		infinite: true,
-		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		centerPadding: "150px",

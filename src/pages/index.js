@@ -2,8 +2,6 @@ import React from "react";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
-import SlickSlides from "../components/SlickSlides";
-import Slider from "../components/Slider";
 import Workshop from "../sections/Workshop";
 
 const IndexPage = () => {

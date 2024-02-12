@@ -3,6 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
 import { StaticImage } from "gatsby-plugin-image";
+import ApplyModal from "../components/ApplyModal";
 
 const srikari = () => {
 	return (
@@ -40,9 +41,7 @@ const srikari = () => {
 						</Col>
 						<Col md={6} className="text-center">
 							<StaticImage className="img-fluid br-20 mb-4" src="../images/banner/srikari.jpeg" alt="Page Banner" />
-							<Button variant="primary" size="lg" className="px-5 mb-4">
-								Register Now
-							</Button>
+							<ApplyModal btnTitle="Register Now" variant="primary" size="lg" className="px-5 mb-4" />
 						</Col>
 						<Col md={12}>
 							<hr />
@@ -137,12 +136,14 @@ const srikari = () => {
 								speech, Madhyama meaning feelings, Pashyanti meaning visualization and Para which literally means transcendental state of consciousness.
 							</p>
 						</Col>
+						<Col md={12}>
+							<div className="text-center">
+								<a href="http://srikari.org/" className="btn btn-primary px-5">
+									More Details
+								</a>
+							</div>
+						</Col>
 					</Row>
-				</Container>
-			</section>
-			<section className="bg-gray-light-1">
-				<Container>
-					<h2 className="w-75 m-auto display-2 fw-bolder text-center mb-2"></h2>
 				</Container>
 			</section>
 		</Layout>

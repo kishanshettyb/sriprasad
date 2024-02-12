@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
 import React from "react";
+import { Link } from "gatsby";
 
 const Events = () => {
 	var settings = {
@@ -70,13 +71,15 @@ const Events = () => {
 							</div>
 						</Col>
 						<Col md={3}>
-							<div className="basic-card">
-								<StaticImage className="card-image" src="../images/workshops/immortal_process_new.png" alt="Immortal Process" />
-								<div className="content">
-									<h2>Sri Kari</h2>
-									<p></p>
+							<Link to="/srikari/">
+								<div className="basic-card">
+									<StaticImage className="card-image" src="../images/workshops/immortal_process_new.png" alt="Immortal Process" />
+									<div className="content">
+										<h2>Sri Kari</h2>
+										<p>Srikari : Kari means giver of boons and Sri meaning the Devi who bestows all; health, protection, prosperity, happiness and success.​</p>
+									</div>
 								</div>
-							</div>
+							</Link>
 						</Col>
 						<Col md={3}>
 							<div className="basic-card">

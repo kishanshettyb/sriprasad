@@ -34,7 +34,9 @@ const NavHeader = () => {
 							About Him
 						</Link>
 						<NavDropdown title="Teaching" id="navbarScrollingDropdown">
-							<NavDropdown.Item href="#action3">Eshwari Kriya</NavDropdown.Item>
+							<Link className="nav-link" href="/eshwarikriya/">
+								Eshwari Kriya
+							</Link>
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action4">Sri Vidhya Eshwari Sadhana </NavDropdown.Item>
 							<NavDropdown.Divider />

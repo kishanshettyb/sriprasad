@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
 import React from "react";
 
-const Workshop = () => {
+const Events = () => {
 	var settings = {
 		dots: true,
 		infinite: true,
@@ -45,7 +45,7 @@ const Workshop = () => {
 	return (
 		<section className="bg-light-1 default-section">
 			<Container>
-				<h2 className="fw-bold display-5 text-center">Workshops</h2>
+				<h2 className="fw-bold display-5 text-center">Events</h2>
 				<div className="text-center">
 					<StaticImage src="../images/others/line-1.png" alt="line" />
 				</div>
@@ -99,6 +99,33 @@ const Workshop = () => {
 								</div>
 							</div>
 						</Col>
+						<Col md={3}>
+							<div className="basic-card">
+								<StaticImage className="card-image" src="../images/workshops/guruji.jpeg" alt="Eshwari Nirmalikarana kriya - Level 01 & 02" />
+								<div className="content">
+									<h2>Eshwari Nirmalikarana kriya - Level 01 & 02</h2>
+									<p>
+										Målā means the impurities or negative energy or Black energy , this Målā is neither formless nor has form , there are three types , Physical , Mental and
+										Emotional, there are many reasons that form or accumulate impurities some have been mentioned below , scientifically it is an exchange of energy the compatible
+										energy is considered as positive energy and incompatible is negative energy but in reality there is no such positive or negative, energy it is just energy
+									</p>
+								</div>
+							</div>
+						</Col>
+						<Col md={3}>
+							<div className="basic-card">
+								<StaticImage className="card-image" src="../images/workshops/horoscope.jpeg" alt="Jyothishmathi - Astro/Vastu Solutions" />
+								<div className="content">
+									<h2>Jyothishmathi - Astro/Vastu Solutions</h2>
+									<p>
+										The school of Jyothishmathi - Astro/Vastu solutions is founded by Guruji Sri Prasad, a profound Srividhya Yoga Tantra Master , who is fully established in the
+										Self. Our school seeks to expand the world’s understanding of yoga through an education and training that are steeped in the Shaktha tradition, the original
+										roots of yoga tantra, Astrology and Vastu , a long lineage of masters while making yoga tantra, Astrology and Vastu accessible and applicable for modern day use
+										for people of all ages, abilities, cultures and religions.
+									</p>
+								</div>
+							</div>
+						</Col>
 					</Slider>
 				</Row>
 			</Container>
@@ -106,4 +133,4 @@ const Workshop = () => {
 	);
 };
 
-export default Workshop;
+export default Events;

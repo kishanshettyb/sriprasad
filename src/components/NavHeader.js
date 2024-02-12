@@ -49,7 +49,9 @@ const NavHeader = () => {
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action4">Nava Rathri</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action5">Sri Kari</NavDropdown.Item>
+							<Link className="nav-link" href="/srikari/">
+								Sri Kari
+							</Link>
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action5">Sri Naada</NavDropdown.Item>
 						</NavDropdown>

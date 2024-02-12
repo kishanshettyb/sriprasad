@@ -38,11 +38,17 @@ const NavHeader = () => {
 								Eshwari Kriya
 							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action4">Sri Vidhya Eshwari Sadhana </NavDropdown.Item>
+							<Link className="nav-link" href="/srividhyaeshwarisadhana/">
+								Sri Vidhya Eshwari Sadhana
+							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action5">Immortal Process</NavDropdown.Item>
+							<Link className="nav-link" href="/immortalprocess/">
+								Immortal Process
+							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action5">Eshwari Kalavahana</NavDropdown.Item>
+							<Link className="nav-link" href="/eshwarikalavahana/">
+								Eshwari Kalavahana
+							</Link>
 						</NavDropdown>
 						<NavDropdown title="Events" id="navbarScrollingDropdown">
 							<NavDropdown.Item href="#action3">Aham to Shivam</NavDropdown.Item>

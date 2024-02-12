@@ -5,14 +5,16 @@ import { Seo } from "../components/Seo";
 import Workshop from "../sections/Workshop";
 import PageBanner from "../components/PageBanner";
 import Events from "../sections/Events";
+import Register from "../components/Register";
 
 const IndexPage = () => {
 	return (
 		<Layout>
 			<Hero />
 			<Workshop />
-			<PageBanner />
+			<PageBanner title="Eshwari Kriya" subTitle="Celebrate Life" />
 			<Events />
+			<Register />
 		</Layout>
 	);
 };

@@ -5,15 +5,21 @@ import { Container } from "react-bootstrap";
 const PageBanner = (props) => {
 	const eshwarikriya = "../images/banner/eshwari-kriya-banner.jpeg";
 	const srikari = "../images/banner/srikari.jpeg";
+	const immortal = "../images/banner/immortal-process.png";
 	return (
 		<section className="page-banner position-relative">
 			<Container>
 				<div className="position-relative">
 					{props.title === "Eshwari Kriya" ? (
 						<StaticImage className="image" src={`${eshwarikriya}`} alt="Page Banner" />
-					) : (
+					) : props.title === "Sri Kari" ? (
 						<StaticImage className="image" src={`${srikari}`} alt="Page Banner" />
+					) : props.title === "Immortal Process" ? (
+						<StaticImage className="image" src={`${immortal}`} alt="Page Banner" />
+					) : (
+						<StaticImage className="image" src={`${immortal}`} alt="Page Banner" />
 					)}
+
 					<div className="overlay"></div>
 					<div className="content">
 						<h2 className="display-3 fw-bold">{props.title}</h2>

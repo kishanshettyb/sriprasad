@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
 import { StaticImage } from "gatsby-plugin-image";
+import { Seo } from "../components/Seo";
+import ApplyModal from "../components/ApplyModal";
 
 const eshwarikriya = () => {
 	return (
@@ -27,6 +29,9 @@ const eshwarikriya = () => {
 					</p>
 
 					<p className="fw-bold">What was the 1st immediate act that you performed after your birth?</p>
+					<div className="text-left mt-3">
+						<ApplyModal btnTitle="Register" size="lg" variant="primary" classes="px-5" />
+					</div>
 				</Container>
 			</section>
 			<section className="bg-light-1">
@@ -102,6 +107,9 @@ const eshwarikriya = () => {
 									<li>Provides contentment and peace of mind</li>
 									<li>Increases memory,skill and creativity.</li>
 								</ul>
+								<div className="text-center mt-3">
+									<ApplyModal btnTitle="Register" size="lg" variant="outline-primary" classes="px-5" />
+								</div>
 							</div>
 						</Col>
 
@@ -116,6 +124,9 @@ const eshwarikriya = () => {
 									<li>Keeps you active throughout the day and maintains energy level for 16 hours in optimum.</li>
 									<li>Strengthens Immunity.</li>
 								</ul>
+								<div className="text-center mt-3">
+									<ApplyModal btnTitle="Register" size="lg" variant="outline-primary" classes="px-5" />
+								</div>
 							</div>
 						</Col>
 						<Col md={6} lg={4} className="mb-0 mb-md-0">
@@ -127,6 +138,9 @@ const eshwarikriya = () => {
 									<li>Creates a conducive environment within your surroundings.</li>
 									<li>Unfolds unconditional love.</li>
 								</ul>
+								<div className="text-center mt-3">
+									<ApplyModal btnTitle="Register" size="lg" variant="outline-primary" classes="px-5" />
+								</div>
 							</div>
 						</Col>
 					</Row>
@@ -220,6 +234,9 @@ const eshwarikriya = () => {
 								In simple statement we would say that ESHWARI KRIYA is a perfect tool for Happy ,Healthy, Prosperous and Successful life Celebrate life through Eshwari Kriya. To
 								celebrate life and to lead holistic life style Eshwari Kriya is a boon to the mankind.
 							</p>
+							<div className="text-center">
+								<ApplyModal btnTitle="Register" size="lg" variant="primary" classes="px-5" />
+							</div>
 						</Col>
 					</Row>
 				</Container>
@@ -229,3 +246,10 @@ const eshwarikriya = () => {
 };
 
 export default eshwarikriya;
+export const Head = () => (
+	<Seo
+		title="Eshwari Kriya"
+		description="In simple statement we would say that ESHWARI KRIYA is a perfect tool for Happy ,Healthy, Prosperous and Successful life Celebrate life through Eshwari Kriya. To
+								celebrate life and to lead holistic life style Eshwari Kriya is a boon to the mankind."
+	/>
+);

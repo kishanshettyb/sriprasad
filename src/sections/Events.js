@@ -74,7 +74,7 @@ const Events = () => {
 								<StaticImage className="card-image" src="../images/workshops/immortal_process_new.png" alt="Immortal Process" />
 								<div className="content">
 									<h2>Sri Kari</h2>
-									<p></p>
+									<p>Srikari : Kari means giver of boons and Sri meaning the Devi who bestows all; health, protection, prosperity, happiness and success.​</p>
 								</div>
 							</div>
 						</Col>

@@ -3,16 +3,21 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 const PageBanner = (props) => {
-	const imagename = "../images/banner/eshwari-kriya-banner.jpeg";
+	const eshwarikriya = "../images/banner/eshwari-kriya-banner.jpeg";
+	const srikari = "../images/banner/srikari.jpeg";
 	return (
 		<section className="page-banner position-relative">
 			<Container>
 				<div className="position-relative">
-					<StaticImage className="image" src={`${imagename}`} alt="Page Banner" />
+					{props.title === "Eshwari Kriya" ? (
+						<StaticImage className="image" src={`${eshwarikriya}`} alt="Page Banner" />
+					) : (
+						<StaticImage className="image" src={`${srikari}`} alt="Page Banner" />
+					)}
 					<div className="overlay"></div>
 					<div className="content">
-						<h2 className="display-3 fw-bold">Eshwari Kriya</h2>
-						<h3 className="display-6 fw-bold">Celebrate Life</h3>
+						<h2 className="display-3 fw-bold">{props.title}</h2>
+						<h3 className="display-6 fw-bold">{props.subTitle}</h3>
 					</div>
 				</div>
 			</Container>

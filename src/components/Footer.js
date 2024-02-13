@@ -18,7 +18,7 @@ const Footer = () => {
 								Read More
 							</Button>
 						</Link>
-						<h6 className="mb-3">Social Media</h6>
+						<h5 className="mb-3">Social Media</h5>
 						<ul className="social-media">
 							<li>
 								<a rel="noreferrer" target="_blank" href="https://www.facebook.com/iandyou.org">
@@ -48,7 +48,7 @@ const Footer = () => {
 						</ul>
 					</Col>
 					<Col xs={6} md={3} lg={2}>
-						<h6 className="mb-4 mt-4 mt-md-0">Projects</h6>
+						<h5 className="mb-4 mt-4 mt-md-0">Projects</h5>
 						<ul>
 							<li>
 								<Link to="/" className="links">
@@ -96,7 +96,7 @@ const Footer = () => {
 						</ul>
 					</Col>
 					<Col xs={6} md={3} lg={2}>
-						<h6 className="mb-4 mt-4 mt-md-0">Quick Links</h6>
+						<h5 className="mb-4 mt-4 mt-md-0">Quick Links</h5>
 						<ul>
 							<li>
 								<Link to="/" className="links">
@@ -147,7 +147,7 @@ const Footer = () => {
 					</Col>
 
 					<Col xs={6} md={2} lg={1}>
-						<h6 className="mb-4 mt-4 mt-md-0">Menus</h6>
+						<h5 className="mb-4 mt-4 mt-md-0">Menus</h5>
 						<ul>
 							<li>
 								<Link className="links" to="/">
@@ -187,11 +187,23 @@ const Footer = () => {
 						</ul>
 					</Col>
 					<Col xs={6} md={4} lg={3}>
-						<h6 className="mb-4 mt-4 mt-md-0">Contact</h6>
+						<h5 className="mb-4 mt-4 mt-md-0">Contact</h5>
+						<h6 className="events-top">Address</h6>
 						<a href="/" className="address-a">
-							1460, Behind Sri. Vasuki Naga Eshwari Temple, HAF (P) Kaveri Layout, Hebbal, <br />
-							Dasarahalli, Bangalore, <br />
-							Karnataka 560024.
+							I and You Foundation
+							<br /> 1460, Behind Sri. Vasuki Naga Eshwari Temple,
+							<br />
+							HAF (P) Kaveri Layout, Hebbal, Dasarahalli,
+							<br />
+							Bangalore, Karnataka - 560024.
+						</a>
+						<h6 className="events-top">Email</h6>
+						<a target="_blank" rel="noreferrer" href="mailto:info@iandyou.org">
+							info@iandyou.org
+						</a>
+						<h6 className="events-top">Phone</h6>
+						<a target="_blank" rel="noreferrer" href="tel:+91 9900022506">
+							+91 9900022506
 						</a>
 					</Col>
 				</Row>

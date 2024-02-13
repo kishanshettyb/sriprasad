@@ -6,19 +6,24 @@ footer {
 	}
 	p {
 		color: $black;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
+	}
+	h5 {
+		opacity: 0.8;
+		color: $black;
+		font-weight: 900;
+		font-size: 1.3rem;
 	}
 	h6 {
-		opacity: 1;
-		color: $black;
-		font-weight: bold;
+		font-weight: 900;
 	}
+
 	a:not(.social-media a) {
 		text-decoration: none;
 		color: $black;
-		opacity: 0.5;
+		opacity: 0.65;
 		font-family: "Poppins", sans-serif;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		&:hover {
 			opacity: 1;
 			color: $primary;
@@ -36,9 +41,9 @@ footer {
 			list-style: none;
 			padding-bottom: 10px;
 			.links {
-				opacity: 0.5;
+				opacity: 0.65;
 				font-family: "Poppins", sans-serif;
-				font-size: 0.8rem;
+				font-size: 0.9rem;
 
 				&:hover {
 					opacity: 1;
@@ -65,7 +70,7 @@ footer {
 	.copyright-div {
 		border-top: 1px solid #ddd;
 		padding: 20px 0;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		margin-top: 50px;
 
 		a {
@@ -83,7 +88,7 @@ footer {
 		p {
 			color: $black;
 			margin-bottom: 0;
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 		}
 	}
 }

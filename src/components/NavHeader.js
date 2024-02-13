@@ -53,7 +53,9 @@ const NavHeader = () => {
 						<NavDropdown title="Events" id="navbarScrollingDropdown">
 							<NavDropdown.Item href="#action3">Aham to Shivam</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action4">Nava Rathri</NavDropdown.Item>
+							<Link className="nav-link" href="/navarathri/">
+								Nava Rathri
+							</Link>
 							<NavDropdown.Divider />
 							<Link className="nav-link" href="/srikari/">
 								Sri Kari
@@ -62,9 +64,13 @@ const NavHeader = () => {
 							<NavDropdown.Item href="#action5">Sri Naada</NavDropdown.Item>
 						</NavDropdown>
 						<NavDropdown title="Projects" id="navbarScrollingDropdown">
-							<NavDropdown.Item href="#action3">I and You Green</NavDropdown.Item>
+							<Link className="nav-link" href="http://iandyougreen.org">
+								I and You Green
+							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action4">I and You Vidhya</NavDropdown.Item>
+							<Link className="nav-link" href="http://iandyouvidya.org">
+								I and You Vidhya
+							</Link>
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action5">Punarjeevana</NavDropdown.Item>
 							<NavDropdown.Divider />
@@ -74,13 +80,21 @@ const NavHeader = () => {
 							<NavDropdown.Item href="#action3">Sri Vasukinaga Eswari Temple</NavDropdown.Item>
 						</NavDropdown>
 						<NavDropdown title="Sadhana" id="navbarScrollingDropdown">
-							<NavDropdown.Item href="#action3">Dakshna Kali</NavDropdown.Item>
+							<Link className="nav-link" href="/dakshinakali/">
+								Dakshina Kali
+							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action3">Devi Mathangi</NavDropdown.Item>
+							<Link className="nav-link" href="/devimathangi/">
+								Devi Mathangi
+							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action3">Devi Varahi</NavDropdown.Item>
+							<Link className="nav-link" href="/devivarahi/">
+								Devi Varahi
+							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action3">Devi Chandi</NavDropdown.Item>
+							<Link className="nav-link" href="/devichandi/">
+								Devi Chandi
+							</Link>
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action3">Sri (Lakshmi)</NavDropdown.Item>
 						</NavDropdown>

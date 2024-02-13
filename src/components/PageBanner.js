@@ -6,6 +6,8 @@ const PageBanner = (props) => {
 	const eshwarikriya = "../images/banner/eshwari-kriya-banner.jpeg";
 	const srikari = "../images/banner/srikari.jpeg";
 	const immortal = "../images/banner/immortal-process.png";
+	const kalavahana = "../images/banner/kalavahana.jpeg";
+	const dummylarge = "../images/dummy-large.png";
 	return (
 		<section className="page-banner position-relative">
 			<Container>
@@ -16,8 +18,10 @@ const PageBanner = (props) => {
 						<StaticImage className="image" src={`${srikari}`} alt="Page Banner" />
 					) : props.title === "Immortal Process" ? (
 						<StaticImage className="image" src={`${immortal}`} alt="Page Banner" />
+					) : props.title === "Kalavahana" ? (
+						<StaticImage className="image" src={`${kalavahana}`} alt="Page Banner" />
 					) : (
-						<StaticImage className="image" src={`${immortal}`} alt="Page Banner" />
+						<StaticImage className="image" src={`${dummylarge}`} alt="Page Banner" />
 					)}
 
 					<div className="overlay"></div>

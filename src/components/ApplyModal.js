@@ -18,9 +18,9 @@ const ApplyModal = (props) => {
 				<Modal.Body>
 					<JotformEmbed src="https://form.jotform.com/240421983787062" />
 				</Modal.Body>
-				<a href="#" onClick={handleClose} className="close-icon">
+				<Button variant="link" className="close-icon" onClick={handleClose}>
 					<StaticImage src="../images/icons/close.svg" alt="" />
-				</a>
+				</Button>
 			</Modal>
 		</>
 	);

@@ -312,7 +312,7 @@
 	@media (min-width: 1200px) {
 		iframe {
 			border-radius: 0 20px 20px 0;
-			height: 597px;
+			height: 599px;
 		}
 		.register-card-image {
 			height: 600px;
@@ -414,4 +414,22 @@
 	background-color: #fff;
 	border-radius: 20px;
 	margin-bottom: 20px;
+}
+
+.slash-left {
+	position: relative;
+	&::before {
+		content: "// ";
+		position: absolute;
+		left: -55px;
+	}
+}
+
+.slash-right {
+	position: relative;
+	&::before {
+		content: " //";
+		position: absolute;
+		right: -55px;
+	}
 }

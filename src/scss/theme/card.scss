@@ -423,6 +423,11 @@
 		position: absolute;
 		left: -55px;
 	}
+	&.new {
+		&::before {
+			left: -35px;
+		}
+	}
 }
 
 .slash-right {
@@ -431,5 +436,15 @@
 		content: " //";
 		position: absolute;
 		right: -55px;
+	}
+	&.new {
+		&::before {
+			right: -35px;
+		}
+	}
+}
+.slash-content {
+	p {
+		position: relative;
 	}
 }

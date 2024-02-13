@@ -8,7 +8,7 @@ const srividhyaeshwarisadhana = () => {
 	return (
 		<Layout>
 			<PageBanner title="SVES" subTitle="Sri Vidhya Eshwari Sadhana" />
-			<section>
+			<section className="slash-content">
 				<Container>
 					<h2 className="display-2 fw-bolder text-center mb-5">Sri Vidhya Eshwari Sadhana</h2>
 					<p>
@@ -41,11 +41,11 @@ const srividhyaeshwarisadhana = () => {
 						is always around him.
 					</p>
 					<p className="fw-bold display-6 text-center special-title mt-5">
-						<span className="splash-left">swa</span> seva vasaram pradhat sarvesham kumbhasambhava/ sevarthamagata thsthra bramhani bharma{" "}
-						<span className="splash-left">kotayah</span>
+						<span className="slash-left">swa</span> seva vasaram pradhat sarvesham kumbhasambhava/ sevarthamagata thsthra bramhani bharma{" "}
+						<span className="slash-right">kotayah</span>
 					</p>
 					<p className="fw-bold display-6 text-center special-title">
-						<span className="splash-left">lakshmi</span> narayanaam cha kotayah samupagath/ gowri koti samrthanam rudranampi <span className="splash-left">kotayah</span>
+						<span className="slash-left">lakshmi</span> narayanaam cha kotayah samupagath/ gowri koti samrthanam rudranampi <span className="slash-right">kotayah</span>
 					</p>
 					<p className="fw-bold text-center fs-5 mb-5">Sri Bramhanda Purana</p>
 					<p>
@@ -53,7 +53,7 @@ const srividhyaeshwarisadhana = () => {
 						celestial being originated, Planets, solar system, infinite Galaxies and Trinities originated.
 					</p>
 					<p className="fw-bold text-center display-5 special-title mt-5">
-						<span className="slash-left">Ananda</span> bhairavopasya dakshinamurti sevita/iyameva mahavidya hayagriva <span className="splash-right">samarchita</span>
+						<span className="slash-left">Ananda</span> bhairavopasya dakshinamurti sevita/iyameva mahavidya hayagriva <span className="slash-right">samarchita</span>
 					</p>
 					<p className="fw-bold text-center fs-5 mb-5">:Para tantra - chaturtha patala - 28</p>
 					<p>
@@ -80,10 +80,11 @@ const srividhyaeshwarisadhana = () => {
 					<p>Sri Vidhya sadhana is known to be taught via 3 methods such as Kaulavachara, Mishra and Samayachara</p>
 					<p>
 						The Kaulavachara is more over external ritual based way of worship , in Mishra both external and internal method of worship but theSamayachara is totally a internal
-						subjective scientific journey towards the absolute( Lalita sahasra nama ; verse 162,{" "}
-						<span className="fw-bold special-title text-center fs-3 mb-5">
-							<span className="splash-left">Antharmukha</span> samaradhya Bahirmukha <span className="splash-right">sudurlabha</span>
-						</span>{" "}
+						subjective scientific journey towards the absolute
+						<br />( Lalita sahasra nama ; verse 162,
+						<span className="fw-bold special-title text-center fs-3 mb-5 d-inline ms-5 me-5">
+							<span className="slash-left new">Antharmukha</span> samaradhya Bahirmukha <span className="slash-right new">sudurlabha</span>
+						</span>
 						)
 					</p>
 					<p>
@@ -115,7 +116,7 @@ const srividhyaeshwarisadhana = () => {
 						yogic tantra method of worship, in support to the above mentioned details , the Parashurama kalpa suktham also appreciates the samayachara method of practice.
 					</p>
 					<p className="fw-bold text-center display-5 special-title mt-5">
-						<span className="splash-left">samayo</span> guptah sanketah sadhanapaddhatih samayo rahasi proktah kale karmakshame api <span className="splash-right">cha</span>
+						<span className="slash-left">samayo</span> guptah sanketah sadhanapaddhatih samayo rahasi proktah kale karmakshame api <span className="slash-right">cha</span>
 					</p>
 					<p className="fw-bold text-center fs-5 mb-5">: Parashurama kalpa suktha vritti of 7.1</p>
 					<p>
@@ -158,7 +159,7 @@ const srividhyaeshwarisadhana = () => {
 					</p>
 					<p className="fw-bold text-center display-5 special-title">
 						<span className="slash-left">tri</span>- vidhya kundalini - shakthi sthree devanan cha srustaye/ sarvam trayam tryam yasmatha samthu tripura{" "}
-						<span className="splash-right">matha</span>
+						<span className="slash-right">matha</span>
 					</p>
 					<p className="fw-bold text-center fs-5 mb-5">Kalika purana</p>
 					<p>
@@ -172,8 +173,8 @@ const srividhyaeshwarisadhana = () => {
 						through ESHWARI SHAKTHI KENDRA SADHANA workshop , after regular practice of these sadhana one can be eligible to take up Sri Vidhya Eshwari Sadhana in two levels.
 					</p>
 					<p className="fw-bold text-center display-5 special-title">
-						<span className="splash-left">Madyah</span> shaktih shivom amsam tad bhokta bhairavah swayam/ Mudra cha shambhavi Sakshat maithunam shiva{" "}
-						<span className="splash-right">chintanam</span>
+						<span className="slash-left">Madyah</span> shaktih shivom amsam tad bhokta bhairavah swayam/ Mudra cha shambhavi Sakshat maithunam shiva{" "}
+						<span className="slash-right">chintanam</span>
 					</p>
 					<p>
 						Sri Vidhya Eshwari Sadhana which is Experiential process based practice as per Anandha Bhirava tradition includes two more types of Kundalini activation methods in

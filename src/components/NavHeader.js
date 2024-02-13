@@ -84,12 +84,10 @@ const NavHeader = () => {
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action3">Sri (Lakshmi)</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link href="#action1">Contact</Nav.Link>
+						<Link className="nav-link" href="/contact/">
+							Contact
+						</Link>
 					</Nav>
-					{/* <Form className="d-flex">
-						<Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
-						<Button variant="outline-success">Search</Button>
-					</Form> */}
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>

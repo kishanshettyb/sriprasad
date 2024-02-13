@@ -35,3 +35,50 @@
 .workshop-section {
 	background-color: #fbfbfb;
 }
+
+// ----- Contact ----- //
+.contact-section {
+	iframe {
+		width: 100%;
+		height: 500px;
+		border-radius: 20px;
+	}
+	.contact-card {
+		height: auto;
+		width: 100%;
+		border-radius: 20px;
+		border: 1px solid #ddd;
+		padding: 20px 15px;
+		@media (min-width: 768px) {
+			padding: 30px;
+			height: 600px;
+		}
+		margin-top: 30px;
+		a {
+			color: $black;
+			opacity: 0.7;
+			font-family: "Poppins", sans-serif;
+
+			&:hover {
+				color: $primary;
+				opacity: 1;
+			}
+		}
+		ul {
+			margin: 30px 0 0 0;
+			padding: 0;
+			li {
+				padding-bottom: 30px;
+				list-style: none;
+			}
+		}
+		iframe {
+			width: 100%;
+			height: auto;
+			@media (min-width: 768px) {
+				height: 600px;
+			}
+			border-radius: 20px;
+		}
+	}
+}

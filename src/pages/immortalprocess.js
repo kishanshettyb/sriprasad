@@ -44,7 +44,10 @@ const immortalprocess = () => {
 						said, 'By this Immutable, O Gārgī, is the (un manifested) ether pervaded' (III. viii. 11) that very Ātman I regard as the immortal Brahman. I do not consider the Self
 						as different from that. What then is it?Knowing Brahman, I am immortal.
 					</p>
-					<p className="fw-bold display-6 text-center special-title mt-5">// I was mortal only through ignorance, since that is gone, I, the knowing one, am indeed immortal //</p>
+					<p className="fw-bold display-6 text-center special-title mt-5">
+						<span className="splash-left">I</span> was mortal only through ignorance, since that is gone, I, the knowing one, am indeed{" "}
+						<span className="splash-right">immortal</span>
+					</p>
 					<p>The purpose of immortal process workshop is to make the sadhak realize that he/she is immortal , the mortal is the body the jeevatman is immortal .</p>
 					<p>Knowing and realizing this truth one can lead fearless, worthy and holistic life, which is known as spiritual life, spiritual means knowledge of the inner being.</p>
 				</Container>
@@ -158,3 +161,10 @@ const immortalprocess = () => {
 };
 
 export default immortalprocess;
+export const Head = () => (
+	<Seo
+		title="Immortal Process"
+		description="The theory of  karma and rebirth raises numerous questions such as how, when, and why did the cycle start in the first place, what is
+						the relative Karmic merit of one karma versus another and why, and what evidence is there that rebirth actually happens, among others."
+	/>
+);

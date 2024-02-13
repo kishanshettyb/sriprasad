@@ -8,7 +8,7 @@ const srividhyaeshwarisadhana = () => {
 	return (
 		<Layout>
 			<PageBanner title="SVES" subTitle="Sri Vidhya Eshwari Sadhana" />
-			<section>
+			<section className="slash-content">
 				<Container>
 					<h2 className="display-2 fw-bolder text-center mb-5">Sri Vidhya Eshwari Sadhana</h2>
 					<p>
@@ -18,7 +18,8 @@ const srividhyaeshwarisadhana = () => {
 						consciousness or Shiva and Shakthi which is the state beyond Gender, Qualities, Time, Form and Space.
 					</p>
 					<p className="fw-bold display-6 text-center special-title mt-5">
-						//Yathrasthi bhogo nacha tathra mokshah/ yathrasthi moksho nacha tathra bhogah/ sri sundhari sadhaka pungavanam bhogaschya mokshaschya karastha yeva //
+						<span className="slash-left">Yathrasthi</span> bhogo nacha tathra mokshah/ yathrasthi moksho nacha tathra bhogah/ sri sundhari sadhaka pungavanam bhogaschya mokshaschya
+						karastha <span className="slash-right">yeva</span>
 					</p>
 					<p className="fw-bold text-center fs-5 mb-5">Sri Rudrayamala Tantra</p>
 					<p>
@@ -39,14 +40,21 @@ const srividhyaeshwarisadhana = () => {
 						Thus a sadhak who meditates daily, if at all encounters a difficulty, he does not fight it alone. The whole universe fights with him as Divine protective energy which
 						is always around him.
 					</p>
-					<p className="fw-bold display-6 text-center special-title mt-5">//swa seva vasaram pradhat sarvesham kumbhasambhava/ sevarthamagata thsthra bramhani bharma kotayah //</p>
-					<p className="fw-bold display-6 text-center special-title">// lakshmi narayanaam cha kotayah samupagath/ gowri koti samrthanam rudranampi kotayah//</p>
+					<p className="fw-bold display-6 text-center special-title mt-5">
+						<span className="slash-left">swa</span> seva vasaram pradhat sarvesham kumbhasambhava/ sevarthamagata thsthra bramhani bharma{" "}
+						<span className="slash-right">kotayah</span>
+					</p>
+					<p className="fw-bold display-6 text-center special-title">
+						<span className="slash-left">lakshmi</span> narayanaam cha kotayah samupagath/ gowri koti samrthanam rudranampi <span className="slash-right">kotayah</span>
+					</p>
 					<p className="fw-bold text-center fs-5 mb-5">Sri Bramhanda Purana</p>
 					<p>
 						In her resides all the cosmos, all the creation, all the realms. She (Transcendental Consciousness) is the Creator, Sustainer and Destroyer, from her every God, every
 						celestial being originated, Planets, solar system, infinite Galaxies and Trinities originated.
 					</p>
-					<p className="fw-bold text-center display-5 special-title mt-5">//Ananda bhairavopasya dakshinamurti sevita/iyameva mahavidya hayagriva samarchita//</p>
+					<p className="fw-bold text-center display-5 special-title mt-5">
+						<span className="slash-left">Ananda</span> bhairavopasya dakshinamurti sevita/iyameva mahavidya hayagriva <span className="slash-right">samarchita</span>
+					</p>
 					<p className="fw-bold text-center fs-5 mb-5">:Para tantra - chaturtha patala - 28</p>
 					<p>
 						It is said in the scriptures thatSri Vidhya Eshwari Sadhana is practiced by the Trinities like Lord Bhirava, Lord Narayana, Lord Bramha and his sons, Sanaka rishis,
@@ -72,8 +80,12 @@ const srividhyaeshwarisadhana = () => {
 					<p>Sri Vidhya sadhana is known to be taught via 3 methods such as Kaulavachara, Mishra and Samayachara</p>
 					<p>
 						The Kaulavachara is more over external ritual based way of worship , in Mishra both external and internal method of worship but theSamayachara is totally a internal
-						subjective scientific journey towards the absolute( Lalita sahasra nama ; verse 162,{" "}
-						<span className="fw-bold special-title text-center fs-3 mb-5">//Antharmukha samaradhya Bahirmukha sudurlabha//</span> )
+						subjective scientific journey towards the absolute
+						<br />( Lalita sahasra nama ; verse 162,
+						<span className="fw-bold special-title text-center fs-3 mb-5 d-inline ms-5 me-5">
+							<span className="slash-left new">Antharmukha</span> samaradhya Bahirmukha <span className="slash-right new">sudurlabha</span>
+						</span>
+						)
 					</p>
 					<p>
 						Sri Vidhya sadhana has two methods of Practice, Dual/ Dvaita and Non-Dual Advaita. Dvaita sadhana is ritual based practice, hence it follows ritualistic approach
@@ -103,7 +115,9 @@ const srividhyaeshwarisadhana = () => {
 						In the 98th name of Eshwari as mentioned in Lalita sahasra namam, "Samayachara tathpara" - The divine Cosmic energy who likes and appreciates the subjective unique
 						yogic tantra method of worship, in support to the above mentioned details , the Parashurama kalpa suktham also appreciates the samayachara method of practice.
 					</p>
-					<p className="fw-bold text-center display-5 special-title mt-5">//samayo guptah sanketah sadhanapaddhatih samayo rahasi proktah kale karmakshame api cha//</p>
+					<p className="fw-bold text-center display-5 special-title mt-5">
+						<span className="slash-left">samayo</span> guptah sanketah sadhanapaddhatih samayo rahasi proktah kale karmakshame api <span className="slash-right">cha</span>
+					</p>
 					<p className="fw-bold text-center fs-5 mb-5">: Parashurama kalpa suktha vritti of 7.1</p>
 					<p>
 						which means that samayachara is a hidden form of spiritual practice which is revealed on due time to the deserving aspirants. Samayachara involves only Meditation and
@@ -140,10 +154,12 @@ const srividhyaeshwarisadhana = () => {
 					<p>5. Adhah (lower) Kundalini: It is in the compressed form of kundalini stored in the lower centres</p>
 					<p>Technically Sri Vidhya Eshwari Sadhana is as described</p>
 					<p className="fw-bold text-center display-5 special-title mt-5">
-						// trikona mandalam chasya bhu-Puraschya tri-lekham / manthropi tri-yaksrah proktha sthatha roomam triya punaha //
+						<span className="slash-left">trikona</span> mandalam chasya bhu-Puraschya tri-lekham / manthropi tri-yaksrah proktha sthatha roomam triya{" "}
+						<span className="slash-right">punaha</span>
 					</p>
 					<p className="fw-bold text-center display-5 special-title">
-						// tri- vidhya kundalini - shakthi sthree devanan cha srustaye/ sarvam trayam tryam yasmatha samthu tripura matha //
+						<span className="slash-left">tri</span>- vidhya kundalini - shakthi sthree devanan cha srustaye/ sarvam trayam tryam yasmatha samthu tripura{" "}
+						<span className="slash-right">matha</span>
 					</p>
 					<p className="fw-bold text-center fs-5 mb-5">Kalika purana</p>
 					<p>
@@ -157,7 +173,8 @@ const srividhyaeshwarisadhana = () => {
 						through ESHWARI SHAKTHI KENDRA SADHANA workshop , after regular practice of these sadhana one can be eligible to take up Sri Vidhya Eshwari Sadhana in two levels.
 					</p>
 					<p className="fw-bold text-center display-5 special-title">
-						//Madyah shaktih shivom amsam tad bhokta bhairavah swayam/ Mudra cha shambhavi Sakshat maithunam shiva chintanam //
+						<span className="slash-left">Madyah</span> shaktih shivom amsam tad bhokta bhairavah swayam/ Mudra cha shambhavi Sakshat maithunam shiva{" "}
+						<span className="slash-right">chintanam</span>
 					</p>
 					<p>
 						Sri Vidhya Eshwari Sadhana which is Experiential process based practice as per Anandha Bhirava tradition includes two more types of Kundalini activation methods in

@@ -55,7 +55,9 @@ const NavHeader = () => {
 							</Link>
 						</NavDropdown>
 						<NavDropdown title="Events" id="navbarScrollingDropdown">
-							<NavDropdown.Item href="#action3">Aham to Shivam</NavDropdown.Item>
+							<Link className="nav-link" href="/ahamtoshivam/">
+								Aham to Shivam
+							</Link>
 							<NavDropdown.Divider />
 							<Link className="nav-link" href="/navarathri/">
 								Nava Rathri
@@ -65,14 +67,16 @@ const NavHeader = () => {
 								Sri Kari
 							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action5">Sri Naada</NavDropdown.Item>
+							<Link className="nav-link" href="/srinaada/">
+								Sri Naada
+							</Link>
 						</NavDropdown>
 						<NavDropdown title="Projects" id="navbarScrollingDropdown">
 							<Link className="nav-link" href="https://iandyougreen.org">
 								I and You Green
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="https://iandyouvidya.org">
+							<Link className="nav-link" href="https://iandyouvidhya.org">
 								I and You Vidhya
 							</Link>
 							<NavDropdown.Divider />

@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-const srinada = () => {
+const srinaada = () => {
 	return <Layout>srinada</Layout>;
 };
 
-export default srinada;
+export default srinaada;

@@ -5,6 +5,8 @@ import { Container } from "react-bootstrap";
 const PageBanner = (props) => {
 	const eshwarikriya = "../images/banner/eshwari-kriya-banner.jpeg";
 	const eshwaridhyana = "../images/banner/eshwaridhyana.png";
+	const ahamtoshivam = "../images/banner/ahamtoshivam.png";
+	const navarathri = "../images/banner/navarathri.jpeg";
 	const matangi = "../images/banner/matangi.png";
 	const varahi = "../images/banner/varahi.png";
 	const chandi = "../images/banner/chandike.png";
@@ -38,14 +40,20 @@ const PageBanner = (props) => {
 						<StaticImage className="image" src={`${chandi}`} alt="Page Banner" />
 					) : props.title === "Dakshina Kali" ? (
 						<StaticImage className="image" src={`${kali}`} alt="Page Banner" />
+					) : props.title === "Aham to Shivam" ? (
+						<StaticImage className="image" src={`${ahamtoshivam}`} alt="Page Banner" />
+					) : props.title === "Navarathri" ? (
+						<StaticImage className="image" src={`${navarathri}`} alt="Page Banner" />
 					) : (
 						<StaticImage className="image" src={`${dummylarge}`} alt="Page Banner" />
 					)}
 
 					<div className="overlay"></div>
 					<div className="content">
-						<h2 className="display-3 fw-bold">{props.title}</h2>
-						<h3 className="display-6 fw-bold">{props.subTitle}</h3>
+						<span className={`${props.classes}`}>
+							<h2 className="display-3 fw-bold">{props.title}</h2>
+							<h3 className="display-6 fw-bold">{props.subTitle}</h3>
+						</span>
 					</div>
 				</div>
 			</Container>

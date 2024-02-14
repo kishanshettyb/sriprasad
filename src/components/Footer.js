@@ -194,12 +194,10 @@ const Footer = () => {
 						<h5 className="mb-4 mt-4 mt-md-0">Contact</h5>
 						<h6 className="events-top">Address</h6>
 						<a href="/" className="address-a">
-							I and You Foundation
-							<br /> 1460, Behind Sri. Vasuki Naga Eshwari Temple,
-							<br />
-							HAF (P) Kaveri Layout, Hebbal, Dasarahalli,
-							<br />
-							Bangalore, Karnataka - 560024.
+							<b>I and You Administration Office</b> <br />
+							Above Canara Bank.1, 1st Main 1st Cross,
+							<br /> Atmananda Colony, Sultanpalya, <br />
+							Bengaluru, Karnataka 560032.
 						</a>
 						<h6 className="events-top">Email</h6>
 						<a target="_blank" rel="noreferrer" href="mailto:info@iandyou.org">

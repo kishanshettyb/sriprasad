@@ -32,10 +32,8 @@ const immortalprocess = () => {
 					<p>Vedic philosophy, Upanishads and Bhagavad-Gita also supports the theory of Karma and Re-birth</p>
 					<div className="para-card">
 						<h2 className="fw-bold text-center display-6 mt-5">Brihadaranyaka Upanishad Verse 4.4.17</h2>
-						<p className="fw-bold display-6 text-center special-title mt-5">यस्मिन्पञ्च पञ्चजना आकाशश्च प्रतिष्ठितः । तमेव मन्य आत्मानं विद्वान्ब्रह्मामृतोऽमृतम् ॥ १७ ॥</p>
-						<p className="fw-bold display-6 text-center special-title mt-5 mb-5">
-							yasmin pañca pañcajanā ākāśaśca pratiṣṭhitaḥ | tameva manya ātmānaṃ vidvānbrahmāmṛto'mṛtam || 17 ||
-						</p>
+						<p className="fw-bold display-6 text-center special-title-new mt-5">यस्मिन्पञ्च पञ्चजना आकाशश्च प्रतिष्ठितः । तमेव मन्य आत्मानं विद्वान्ब्रह्मामृतोऽमृतम् ॥ १७ ॥</p>
+						<p className="fw-bold   text-center special-title-new mt-5 mb-5">yasmin pañca pañcajanā ākāśaśca pratiṣṭhitaḥ | tameva manya ātmānaṃ vidvānbrahmāmṛto'mṛtam || 17 ||</p>
 					</div>
 					<p>That in which the five groups of five and the (subtle) ether are placed, that very Ātman I regard as the immortal Brahman. Knowing (Brahman) I am immortal.//17//</p>
 					<p>
@@ -44,7 +42,7 @@ const immortalprocess = () => {
 						said, 'By this Immutable, O Gārgī, is the (un manifested) ether pervaded' (III. viii. 11) that very Ātman I regard as the immortal Brahman. I do not consider the Self
 						as different from that. What then is it?Knowing Brahman, I am immortal.
 					</p>
-					<p className="fw-bold display-6 text-center special-title mt-5">
+					<p className="fw-bold  text-center special-title-new mt-5">
 						<span className="splash-left">I</span> was mortal only through ignorance, since that is gone, I, the knowing one, am indeed{" "}
 						<span className="splash-right">immortal</span>
 					</p>

@@ -30,9 +30,9 @@ const contact = () => {
 										<h4 className="fw-bold">Address</h4>
 										<a target="_blank" rel="noreferrer" href="https://maps.app.goo.gl/9YL3d8wSQGBycaMK8">
 											<b>I and You Administration Office</b> <br />
-											1460, Behind Sri. Vasuki Naga Eshwari Temple, <br />
-											HAF (P) Kaveri Layout, Hebbal, Dasarahalli, <br />
-											Bangalore, Karnataka - 560024.
+											Above Canara Bank.1, 1st Main 1st Cross,
+											<br /> Atmananda Colony, Sultanpalya, <br />
+											Bengaluru, Karnataka 560032.
 										</a>
 									</li>
 									<li>

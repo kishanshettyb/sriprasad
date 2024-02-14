@@ -63,7 +63,7 @@ const Hero = () => {
 			</div>
 			<section className="pt-0">
 				<div className="text-center ">
-					<h2 className="w-75 m-auto display-2 fw-bolder text-center mt-5">
+					<h2 className="display-3 fw-bolder text-center mt-5">
 						"I am here to introduce you to <span className="text-primary">your self</span>"
 					</h2>
 					<h3 className="special-title display-4 pt-3">- Sri Prasad</h3>

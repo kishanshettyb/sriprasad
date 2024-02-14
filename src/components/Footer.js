@@ -21,17 +21,17 @@ const Footer = () => {
 						<h5 className="mb-3">Social Media</h5>
 						<ul className="social-media">
 							<li>
-								<a rel="noreferrer" target="_blank" href="https://www.facebook.com/iandyou.org">
+								<a rel="noreferrer" target="_blank" href="https://www.facebook.com/srimnprasad.prasad">
 									<StaticImage className="icon" src="../images/social/facebook.svg" alt="Sri Prasad Facebook" />
 								</a>
 							</li>
 							<li>
-								<a rel="noreferrer" target="_blank" href="https://www.instagram.com/iandyoubeingtogether">
+								<a rel="noreferrer" target="_blank" href="https://www.instagram.com/sriprasadguruji">
 									<StaticImage className="icon" src="../images/social/instagram.svg" alt="Sri Prasad instagram" />
 								</a>
 							</li>
 							<li>
-								<a href="/">
+								<a target="_blank" rel="noreferrer" href="https://www.youtube.com/@sriprasad4424">
 									<StaticImage className="icon" src="../images/social/youtube.svg" alt="Sri Prasad youtube" />
 								</a>
 							</li>

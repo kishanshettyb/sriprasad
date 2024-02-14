@@ -6,13 +6,16 @@ import Workshop from "../sections/Workshop";
 import PageBanner from "../components/PageBanner";
 import Events from "../sections/Events";
 import Register from "../components/Register";
+import { Link } from "gatsby";
 
 const IndexPage = () => {
 	return (
 		<Layout>
 			<Hero />
 			<Workshop />
-			<PageBanner title="Eshwari Kriya" subTitle="Celebrate Life" />
+			<Link to="/eshwarikriya/">
+				<PageBanner title="Eshwari Kriya" subTitle="Celebrate Life" />
+			</Link>
 			<Events />
 			<Register />
 		</Layout>

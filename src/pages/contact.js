@@ -51,12 +51,12 @@ const contact = () => {
 										<h4 className="fw-bold">Social Links</h4>
 										<ul className="social-media">
 											<li>
-												<a rel="noreferrer" target="_blank" href="https://www.facebook.com/iandyou.org">
+												<a rel="noreferrer" target="_blank" href="https://www.facebook.com/srimnprasad.prasad">
 													<StaticImage className="icon" src="../images/social/facebook.svg" alt="Sri Prasad Facebook" />
 												</a>
 											</li>
 											<li>
-												<a rel="noreferrer" target="_blank" href="https://www.instagram.com/iandyoubeingtogether">
+												<a rel="noreferrer" target="_blank" href="https://www.instagram.com/sriprasadguruji">
 													<StaticImage className="icon" src="../images/social/instagram.svg" alt="Sri Prasad instagram" />
 												</a>
 											</li>

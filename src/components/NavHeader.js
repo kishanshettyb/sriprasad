@@ -64,11 +64,11 @@ const NavHeader = () => {
 							<NavDropdown.Item href="#action5">Sri Naada</NavDropdown.Item>
 						</NavDropdown>
 						<NavDropdown title="Projects" id="navbarScrollingDropdown">
-							<Link className="nav-link" href="http://iandyougreen.org">
+							<Link className="nav-link" href="https://iandyougreen.org">
 								I and You Green
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="http://iandyouvidya.org">
+							<Link className="nav-link" href="https://iandyouvidya.org">
 								I and You Vidhya
 							</Link>
 							<NavDropdown.Divider />

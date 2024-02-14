@@ -53,28 +53,32 @@ const Events = () => {
 				<Row>
 					<Slider {...settings}>
 						<Col md={3}>
-							<div className="basic-card">
-								<StaticImage className="card-image" src="../images/workshops/ahamtoshivam.jpeg" alt="Eshwari Kriya" />
-								<div className="content">
-									<h2>Aham to Shivam</h2>
-									<p>
-										This is a journey, an individual's journey, it's an unknown, directionless secret journey into the internal depths of consciousness that is basically a journey
-										towards Shiva or our own Existence which gives great satisfaction.
-									</p>
+							<Link to="/ahamtoshivam/">
+								<div className="basic-card">
+									<StaticImage className="card-image" src="../images/workshops/ahamtoshivam.jpeg" alt="Eshwari Kriya" />
+									<div className="content">
+										<h2>Aham to Shivam</h2>
+										<p>
+											This is a journey, an individual's journey, it's an unknown, directionless secret journey into the internal depths of consciousness that is basically a
+											journey towards Shiva or our own Existence which gives great satisfaction.
+										</p>
+									</div>
 								</div>
-							</div>
+							</Link>
 						</Col>
 						<Col md={3}>
-							<div className="basic-card">
-								<StaticImage className="card-image" src="../images/workshops/navaratri.jpg" alt="Eshwari Dhyana" />
-								<div className="content">
-									<h2>Nava Rathri</h2>
-									<p>
-										A Scientific Yogic Practice during Navarathri Bharath is a such country here most of festivals are incorporated with Scientific knowledge, human values and
-										Rituals based celebration .
-									</p>
+							<Link to="/navarathri/">
+								<div className="basic-card">
+									<StaticImage className="card-image" src="../images/workshops/navaratri.png" alt="Eshwari Dhyana" />
+									<div className="content">
+										<h2>Nava Rathri</h2>
+										<p>
+											A Scientific Yogic Practice during Navarathri Bharath is a such country here most of festivals are incorporated with Scientific knowledge, human values and
+											Rituals based celebration .
+										</p>
+									</div>
 								</div>
-							</div>
+							</Link>
 						</Col>
 						<Col md={3}>
 							<Link to="/srikari/">
@@ -88,13 +92,15 @@ const Events = () => {
 							</Link>
 						</Col>
 						<Col md={3}>
-							<div className="basic-card">
-								<StaticImage className="card-image" src="../images/workshops/srinada.jpeg" alt="Sri Vidhya Eshwari Sadhana Level - 1" />
-								<div className="content">
-									<h2>Sri Naada </h2>
-									<p></p>
+							<Link to="/srinada/">
+								<div className="basic-card">
+									<StaticImage className="card-image" src="../images/workshops/srinada.jpeg" alt="Sri Vidhya Eshwari Sadhana Level - 1" />
+									<div className="content">
+										<h2>Sri Naada </h2>
+										<p></p>
+									</div>
 								</div>
-							</div>
+							</Link>
 						</Col>
 					</Slider>
 				</Row>

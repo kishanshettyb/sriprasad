@@ -38,10 +38,6 @@ const NavHeader = () => {
 								Eshwari Kriya
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/eshwaridhyana/">
-								Eshwari Dhyana
-							</Link>
-							<NavDropdown.Divider />
 							<Link className="nav-link" href="/srividhyaeshwarisadhana/">
 								Sri Vidhya Eshwari Sadhana
 							</Link>
@@ -82,10 +78,6 @@ const NavHeader = () => {
 							<NavDropdown.Divider />
 							<Link className="nav-link" href="/punarjeevana/">
 								Punarjeevana
-							</Link>
-							<NavDropdown.Divider />
-							<Link className="nav-link" href="/sanskar/">
-								Sanskar
 							</Link>
 						</NavDropdown>
 						<NavDropdown title="Spiritual Centre" id="navbarScrollingDropdown">

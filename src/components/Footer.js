@@ -2,10 +2,14 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import ApplyModal from "./ApplyModal";
 
 const Footer = () => {
 	return (
 		<footer>
+			<div className="fixed-footer">
+				<ApplyModal variant="primary" size="lg" btnTitle="Register" />
+			</div>
 			<Container>
 				<Row>
 					<Col xs={12} md={12} lg={4}>

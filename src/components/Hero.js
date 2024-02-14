@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import FirstImg from "../images/hero/hero-2.png";
-import SecondImg from "../images/hero/hero-1.png";
 import ThirdImg from "../images/hero/hero-3.png";
 import SriPrasad from "../images/hero/sriprasad.jpeg";
 

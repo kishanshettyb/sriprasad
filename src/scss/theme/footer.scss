@@ -1,4 +1,9 @@
 footer {
+	.fixed-footer {
+		position: fixed;
+		right: 50px;
+		bottom: 50px;
+	}
 	background-color: #f1f1f14d;
 	padding-top: 50px;
 	.events-top {

@@ -1,6 +1,5 @@
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
 

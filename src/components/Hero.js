@@ -4,6 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import FirstImg from "../images/hero/hero-2.png";
 import SecondImg from "../images/hero/hero-1.png";
 import ThirdImg from "../images/hero/hero-3.png";
+import SriPrasad from "../images/hero/sriprasad.jpeg";
+
 import Carousel from "react-bootstrap/Carousel";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -27,7 +29,7 @@ const Hero = () => {
 							<div className="image-grid">
 								<div className="image-grid__item center_item">
 									<Link to="iandyou" className="grid-item">
-										<div className="grid-item__image" style={{ backgroundImage: `url(${SecondImg})` }}></div>
+										<div className="grid-item__image" style={{ backgroundImage: `url(${SriPrasad})` }}></div>
 										<div className="grid-item__hover"></div>
 									</Link>
 								</div>
@@ -52,7 +54,7 @@ const Hero = () => {
 						<StaticImage className="slider-image" src="../images/hero/hero-2.png" alt="SriPrasad" />
 					</Carousel.Item>
 					<Carousel.Item interval={1500}>
-						<StaticImage className="slider-image" src="../images/hero/hero-1.png" alt="SriPrasad" />
+						<StaticImage className="slider-image" src="../images/hero/sriprasad.jpeg" alt="SriPrasad" />
 					</Carousel.Item>
 					<Carousel.Item interval={1500}>
 						<StaticImage className="slider-image" src="../images/hero/hero-3.png" alt="SriPrasad" />

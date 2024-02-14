@@ -5,8 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import ApplyModal from "./ApplyModal";
-import { Form } from "react-bootstrap";
 const NavHeader = () => {
 	const [scrolltopdata, setscrolltopdata] = useState("");
 
@@ -38,6 +36,10 @@ const NavHeader = () => {
 						<NavDropdown title="Teaching" id="navbarScrollingDropdown">
 							<Link className="nav-link" href="/eshwarikriya/">
 								Eshwari Kriya
+							</Link>
+							<NavDropdown.Divider />
+							<Link className="nav-link" href="/eshwaridhyana/">
+								Eshwari Dhyana
 							</Link>
 							<NavDropdown.Divider />
 							<Link className="nav-link" href="/srividhyaeshwarisadhana/">
@@ -104,9 +106,6 @@ const NavHeader = () => {
 							Contact
 						</Link>
 					</Nav>
-					<Form className="d-flex   d-lg-none d-xl-block">
-						<ApplyModal variant="primary" size="sm" btnTitle="Register" classes="my-3 ms-3 my-xl-0 ms-xl-0 me-xl-5 px-5" />
-					</Form>
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>

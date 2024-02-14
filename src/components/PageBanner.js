@@ -4,6 +4,11 @@ import { Container } from "react-bootstrap";
 
 const PageBanner = (props) => {
 	const eshwarikriya = "../images/banner/eshwari-kriya-banner.jpeg";
+	const eshwaridhyana = "../images/banner/eshwaridhyana.png";
+	const matangi = "../images/banner/matangi.png";
+	const varahi = "../images/banner/varahi.png";
+	const chandi = "../images/banner/chandike.png";
+	const kali = "../images/banner/kali.png";
 	const srikari = "../images/banner/srikari.jpeg";
 	const srividya = "../images/banner/srividya.jpeg";
 	const immortal = "../images/banner/immortal-process.png";
@@ -23,6 +28,16 @@ const PageBanner = (props) => {
 						<StaticImage className="image" src={`${kalavahana}`} alt="Page Banner" />
 					) : props.title === "SVES" ? (
 						<StaticImage className="image" src={`${srividya}`} alt="Page Banner" />
+					) : props.title === "Eshwari Dhyana" ? (
+						<StaticImage className="image" src={`${eshwaridhyana}`} alt="Page Banner" />
+					) : props.title === "Devi Mathangi" ? (
+						<StaticImage className="image" src={`${matangi}`} alt="Page Banner" />
+					) : props.title === "Devi Varahi" ? (
+						<StaticImage className="image" src={`${varahi}`} alt="Page Banner" />
+					) : props.title === "Devi Chandi" ? (
+						<StaticImage className="image" src={`${chandi}`} alt="Page Banner" />
+					) : props.title === "Dakshina Kali" ? (
+						<StaticImage className="image" src={`${kali}`} alt="Page Banner" />
 					) : (
 						<StaticImage className="image" src={`${dummylarge}`} alt="Page Banner" />
 					)}

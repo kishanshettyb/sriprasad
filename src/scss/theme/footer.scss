@@ -1,9 +1,4 @@
 footer {
-	.fixed-footer {
-		position: fixed;
-		right: 50px;
-		bottom: 50px;
-	}
 	background-color: #f1f1f14d;
 	padding-top: 50px;
 	.events-top {
@@ -94,6 +89,21 @@ footer {
 			color: $black;
 			margin-bottom: 0;
 			font-size: 0.9rem;
+		}
+	}
+	.fixed-footer {
+		position: fixed;
+		right: 50px;
+		bottom: 50px;
+		a {
+			opacity: 1 !important;
+		}
+
+		.whatsapp-icon {
+			width: 50px;
+			height: 50px;
+			z-index: 1111;
+			opacity: 1 !important;
 		}
 	}
 }

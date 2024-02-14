@@ -2,13 +2,14 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import ApplyModal from "./ApplyModal";
 
 const Footer = () => {
 	return (
 		<footer>
 			<div className="fixed-footer">
-				<ApplyModal variant="primary" size="lg" btnTitle="Register" />
+				<a rel="noreferrer" target="_blank" href="https://wa.me/9900022506">
+					<StaticImage className="whatsapp-icon" src="../images/icons/whatsapp.png" alt="whatsapp" />
+				</a>
 			</div>
 			<Container>
 				<Row>

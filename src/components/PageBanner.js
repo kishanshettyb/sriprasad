@@ -5,8 +5,9 @@ import { Container } from "react-bootstrap";
 const PageBanner = (props) => {
 	const eshwarikriya = "../images/banner/eshwari-kriya-banner.jpeg";
 	const srikari = "../images/banner/srikari.jpeg";
+	const srividya = "../images/banner/srividya.jpeg";
 	const immortal = "../images/banner/immortal-process.png";
-	const kalavahana = "../images/banner/kalavahana.jpeg";
+	const kalavahana = "../images/banner/kalavahana-2.jpeg";
 	const dummylarge = "../images/dummy-large.png";
 	return (
 		<section className="page-banner position-relative">
@@ -20,6 +21,8 @@ const PageBanner = (props) => {
 						<StaticImage className="image" src={`${immortal}`} alt="Page Banner" />
 					) : props.title === "Kalavahana" ? (
 						<StaticImage className="image" src={`${kalavahana}`} alt="Page Banner" />
+					) : props.title === "SVES" ? (
+						<StaticImage className="image" src={`${srividya}`} alt="Page Banner" />
 					) : (
 						<StaticImage className="image" src={`${dummylarge}`} alt="Page Banner" />
 					)}

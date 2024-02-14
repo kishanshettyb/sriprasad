@@ -31,17 +31,17 @@ const about = () => {
 							<h6 className="mb-3 fw-bold">Social Media</h6>
 							<ul className="social-media">
 								<li>
-									<a target="_blank" rel="noreferrer" href="https://www.facebook.com/iandyou.org">
+									<a target="_blank" rel="noreferrer" href="https://www.facebook.com/srimnprasad.prasad">
 										<StaticImage className="icon" src="../images/social/facebook.svg" alt="Sri Prasad Facebook" />
 									</a>
 								</li>
 								<li>
-									<a target="_blank" rel="noreferrer" href="https://www.instagram.com/iandyoubeingtogether">
+									<a target="_blank" rel="noreferrer" href="https://www.instagram.com/sriprasadguruji">
 										<StaticImage className="icon" src="../images/social/instagram.svg" alt="Sri Prasad instagram" />
 									</a>
 								</li>
 								<li>
-									<a href="/">
+									<a target="_blank" rel="noreferrer" href="https://www.youtube.com/@sriprasad4424">
 										<StaticImage className="icon" src="../images/social/youtube.svg" alt="Sri Prasad youtube" />
 									</a>
 								</li>
@@ -160,6 +160,53 @@ const about = () => {
 						its main office in Bangalore-Karnataka, India and has established its branches in several states of India and overseas.
 					</p>
 					<p>The organization functions under the thriving service of its volunteers from India and various countries has illumined the lives of several million people.</p>
+				</Container>
+			</section>
+
+			<section className="bg-light-1">
+				<Container>
+					<h2 className="display-5 text-black text-center fw-bold mb-0">Awards & Recognition</h2>
+					<div className="text-center mb-5">
+						<StaticImage src="../images/pages/award.png" alt="Awards and Recognition" class="img-fluid" />
+					</div>
+					<StaticImage src="../images/pages/awards.png" alt="Awards and Recognition" class="mb-5 img-fluid w-100 br-20" />
+
+					<ul className="award-ul">
+						<li>
+							The <b>”GOOD SAMRITAN”</b> Awarded to the founder for his green initiative, for the betterment of the environment through Neem sapling plantation.{" "}
+						</li>
+						<li>
+							Awarded <b>“GLOBAL MAN”</b> at Sharjah, UAE to the Founder for his benevolent service to humanity through Eshwari Kriya{" "}
+						</li>
+						<li>
+							Honored <b>Doctorate by Royal Academy of Global Peace</b>, International Accreditation Organization, USA{" "}
+						</li>
+						<li>
+							<b>COMMUNITY LEADERSHIP</b> Award by International Human Rights Peace Commission, Florida-USA.{" "}
+						</li>
+						<li>
+							Awarded <b>CERTIFICATR OF APPRECIATION</b> by International Anti-Terrorist and Peace Force, USA{" "}
+						</li>
+						<li>
+							Honored <b>Ph,d Philosophies</b> from Ecole superieure Robert de Sorbon University , France{" "}
+						</li>
+						<li>
+							Certificate of <b>LIMCA BOOK</b> of National records for Environmental initiative{" "}
+						</li>
+						<li>
+							International Achievers Conference - <b>SPIRITUAL EXCELLENCE AWARD</b> - Delhi, on the occasion of national seminar on “National Economic Development & Social
+							Responsibilities - <b>ATMANIRBHAR BHARAT</b>
+						</li>
+						<li>
+							<b>"ANTRASHTRIYA VISHWA MANYA"</b> award from Karnataka Press Club Council on the occasion of 1st Vishwa Kannada Festival at Dubai
+						</li>
+						<li>
+							<b>"BHARATH SEVA RATHNA AWARD"</b> for excellent contribution on Establishing Asia Vedic Culture in the Global Mission of the UNITED NATIONS ACADEMIC IMPACT
+						</li>
+					</ul>
+					<div className="text-center">
+						<StaticImage src="../images/pages/award.png" alt="Awards and Recognition" class="img-fluid" />
+					</div>
 				</Container>
 			</section>
 		</Layout>

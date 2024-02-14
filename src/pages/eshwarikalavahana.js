@@ -1,5 +1,6 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
 
@@ -48,6 +49,14 @@ const eshwarikalavahana = () => {
 						Through this realization the Sadhaka gets divine experiences, the Yogis and Yoginis comes in contact with the Sadhak who has achieved oneness with the cosmic
 						consciousness, through this contact the Sadhaka gets special guidance, protection from difficulties, fulfillment in life and success in worldly and spiritual life.
 					</p>
+					<Row className="my-5">
+						<Col md={6}>
+							<StaticImage className="img-fluid br-20" src="../images/banner/kalavahana-1.jpeg" />
+						</Col>
+						<Col md={6}>
+							<StaticImage className="img-fluid br-20" src="../images/banner/kalavahana-2.jpeg" />
+						</Col>
+					</Row>
 
 					<h2 className="fw-bold display-6">Fruits of Kalavahana:</h2>
 					<ul className="regular-ul">

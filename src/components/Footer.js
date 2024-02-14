@@ -6,6 +6,11 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 const Footer = () => {
 	return (
 		<footer>
+			<div className="fixed-footer">
+				<a rel="noreferrer" target="_blank" href="https://wa.me/9900022506">
+					<StaticImage className="whatsapp-icon" src="../images/icons/whatsapp.png" alt="whatsapp" />
+				</a>
+			</div>
 			<Container>
 				<Row>
 					<Col xs={12} md={12} lg={4}>
@@ -21,17 +26,17 @@ const Footer = () => {
 						<h5 className="mb-3">Social Media</h5>
 						<ul className="social-media">
 							<li>
-								<a rel="noreferrer" target="_blank" href="https://www.facebook.com/iandyou.org">
+								<a rel="noreferrer" target="_blank" href="https://www.facebook.com/srimnprasad.prasad">
 									<StaticImage className="icon" src="../images/social/facebook.svg" alt="Sri Prasad Facebook" />
 								</a>
 							</li>
 							<li>
-								<a rel="noreferrer" target="_blank" href="https://www.instagram.com/iandyoubeingtogether">
+								<a rel="noreferrer" target="_blank" href="https://www.instagram.com/sriprasadguruji">
 									<StaticImage className="icon" src="../images/social/instagram.svg" alt="Sri Prasad instagram" />
 								</a>
 							</li>
 							<li>
-								<a href="/">
+								<a target="_blank" rel="noreferrer" href="https://www.youtube.com/@sriprasad4424">
 									<StaticImage className="icon" src="../images/social/youtube.svg" alt="Sri Prasad youtube" />
 								</a>
 							</li>
@@ -138,11 +143,6 @@ const Footer = () => {
 									Blog
 								</Link>
 							</li>
-							<li>
-								<Link to="/" className="links">
-									FAQ
-								</Link>
-							</li>
 						</ul>
 					</Col>
 
@@ -190,12 +190,10 @@ const Footer = () => {
 						<h5 className="mb-4 mt-4 mt-md-0">Contact</h5>
 						<h6 className="events-top">Address</h6>
 						<a href="/" className="address-a">
-							I and You Foundation
-							<br /> 1460, Behind Sri. Vasuki Naga Eshwari Temple,
-							<br />
-							HAF (P) Kaveri Layout, Hebbal, Dasarahalli,
-							<br />
-							Bangalore, Karnataka - 560024.
+							<b>I and You Administration Office</b> <br />
+							Above Canara Bank.1, 1st Main 1st Cross,
+							<br /> Atmananda Colony, Sultanpalya, <br />
+							Bengaluru, Karnataka 560032.
 						</a>
 						<h6 className="events-top">Email</h6>
 						<a target="_blank" rel="noreferrer" href="mailto:info@iandyou.org">

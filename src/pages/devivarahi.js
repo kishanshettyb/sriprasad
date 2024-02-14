@@ -41,7 +41,7 @@ const devivarahi = () => {
 							</ul>
 						</Col>
 						<Col md={6}>
-							<StaticImage src="../images/dummy.png" className="img-fluid br-20" alt="" />
+							<StaticImage src="../images/pages/varahi.jpeg" className="img-fluid shadow br-20" alt="" />
 						</Col>
 					</Row>
 				</Container>

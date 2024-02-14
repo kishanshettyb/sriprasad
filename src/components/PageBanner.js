@@ -16,6 +16,7 @@ const PageBanner = (props) => {
 	const immortal = "../images/banner/immortal-process.png";
 	const kalavahana = "../images/banner/kalavahana-2.jpeg";
 	const dummylarge = "../images/dummy-large.png";
+	const srinaada = "../images/banner/srinaada.png";
 	return (
 		<section className="page-banner position-relative">
 			<Container>
@@ -44,6 +45,8 @@ const PageBanner = (props) => {
 						<StaticImage className="image" src={`${ahamtoshivam}`} alt="Page Banner" />
 					) : props.title === "Navarathri" ? (
 						<StaticImage className="image" src={`${navarathri}`} alt="Page Banner" />
+					) : props.title === "Sri Naada" ? (
+						<StaticImage className="image" src={`${srinaada}`} alt="Page Banner" />
 					) : (
 						<StaticImage className="image" src={`${dummylarge}`} alt="Page Banner" />
 					)}

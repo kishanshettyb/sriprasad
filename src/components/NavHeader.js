@@ -80,9 +80,13 @@ const NavHeader = () => {
 								I and You Vidhya
 							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action5">Punarjeevana</NavDropdown.Item>
+							<Link className="nav-link" href="/punarjeevana/">
+								Punarjeevana
+							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action5">Sanskara</NavDropdown.Item>
+							<Link className="nav-link" href="/sanskar/">
+								Sanskar
+							</Link>
 						</NavDropdown>
 						<NavDropdown title="Spiritual Centre" id="navbarScrollingDropdown">
 							<NavDropdown.Item href="#action3">Sri Vasukinaga Eswari Temple</NavDropdown.Item>

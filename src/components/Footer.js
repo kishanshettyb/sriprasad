@@ -142,11 +142,6 @@ const Footer = () => {
 									Blog
 								</Link>
 							</li>
-							<li>
-								<Link to="/" className="links">
-									FAQ
-								</Link>
-							</li>
 						</ul>
 					</Col>
 

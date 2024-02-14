@@ -55,7 +55,7 @@ const Events = () => {
 						<Col md={3}>
 							<Link to="/ahamtoshivam/">
 								<div className="basic-card">
-									<StaticImage className="card-image" src="../images/workshops/ahamtoshivam.jpeg" alt="Eshwari Kriya" />
+									<StaticImage className="card-image" src="../images/workshops/navaratri.jpg" alt="Eshwari Kriya" />
 									<div className="content">
 										<h2>Aham to Shivam</h2>
 										<p>

@@ -14,7 +14,7 @@ const PageBanner = (props) => {
 	const srikari = "../images/banner/srikari.jpeg";
 	const srividya = "../images/banner/srividya.jpeg";
 	const immortal = "../images/banner/immortal-process.png";
-	const kalavahana = "../images/banner/kalavahana-2.jpeg";
+	const kalavahana = "../images/banner/kalavahana-1.jpeg";
 	const dummylarge = "../images/dummy-large.png";
 	const srinaada = "../images/banner/srinaada.png";
 	return (

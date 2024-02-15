@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import PageBanner from "../components/PageBanner";
+import Register from "../components/Register";
 
 const immortalprocess = () => {
 	return (
@@ -154,6 +155,7 @@ const immortalprocess = () => {
 					<p className="fw-bold fs-5  ">Jai Guru Dev</p>
 				</Container>
 			</section>
+			<Register title="Immortal Process" />
 		</Layout>
 	);
 };

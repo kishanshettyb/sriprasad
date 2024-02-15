@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
+import Register from "../components/Register";
 
 const eshwarikalavahana = () => {
 	return (
@@ -86,6 +87,7 @@ const eshwarikalavahana = () => {
 					<p className="mt-0">Jai Guru Dev</p>
 				</Container>
 			</section>
+			<Register title="Kalavahana" />
 		</Layout>
 	);
 };

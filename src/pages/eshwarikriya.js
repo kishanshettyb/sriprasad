@@ -5,6 +5,7 @@ import PageBanner from "../components/PageBanner";
 import { StaticImage } from "gatsby-plugin-image";
 import { Seo } from "../components/Seo";
 import ApplyModal from "../components/ApplyModal";
+import Register from "../components/Register";
 
 const eshwarikriya = () => {
 	return (
@@ -241,6 +242,7 @@ const eshwarikriya = () => {
 					</Row>
 				</Container>
 			</section>
+			<Register title="Eshwari Kriya" />
 		</Layout>
 	);
 };

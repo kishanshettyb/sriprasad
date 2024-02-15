@@ -19,7 +19,7 @@ const IndexPage = () => {
 			</Link>
 			<Events />
 			<Youtube />
-			<Register />
+			<Register title="Eshwari Kriya" />
 		</Layout>
 	);
 };

@@ -34,75 +34,77 @@ const NavHeader = () => {
 							About Him
 						</Link>
 						<NavDropdown title="Teaching" id="navbarScrollingDropdown">
-							<Link className="nav-link" href="/eshwarikriya/">
+							<Link className="nav-link" to="/eshwarikriya/">
 								Eshwari Kriya
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/srividhyaeshwarisadhana/">
+							<Link className="nav-link" to="/srividhyaeshwarisadhana/">
 								Sri Vidhya Eshwari Sadhana
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/immortalprocess/">
+							<Link className="nav-link" to="/immortalprocess/">
 								Immortal Process
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/eshwarikalavahana/">
+							<Link className="nav-link" to="/eshwarikalavahana/">
 								Eshwari Kalavahana
 							</Link>
 						</NavDropdown>
 						<NavDropdown title="Events" id="navbarScrollingDropdown">
-							<Link className="nav-link" href="/ahamtoshivam/">
+							<Link className="nav-link" to="/ahamtoshivam/">
 								Aham to Shivam
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/navarathri/">
+							<Link className="nav-link" to="/navarathri/">
 								Nava Rathri
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/srikari/">
+							<Link className="nav-link" to="/srikari/">
 								Sri Kari
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/srinaada/">
+							<Link className="nav-link" to="/srinaada/">
 								Sri Naada
 							</Link>
 						</NavDropdown>
 						<NavDropdown title="Projects" id="navbarScrollingDropdown">
-							<Link className="nav-link" href="https://iandyougreen.org">
+							<Link className="nav-link" to="https://iandyougreen.org">
 								I and You Green
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="https://iandyouvidhya.org">
+							<Link className="nav-link" to="https://iandyouvidhya.org">
 								I and You Vidhya
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/punarjeevana/">
+							<Link className="nav-link" to="/punarjeevana/">
 								Punarjeevana
 							</Link>
 						</NavDropdown>
 						<NavDropdown title="Spiritual Centre" id="navbarScrollingDropdown">
-							<NavDropdown.Item href="#action3">Sri Vasukinaga Eswari Temple</NavDropdown.Item>
+							<NavDropdown.Item to="#action3">Sri Vasukinaga Eswari Temple</NavDropdown.Item>
 						</NavDropdown>
 						<NavDropdown title="Sadhana" id="navbarScrollingDropdown">
-							<Link className="nav-link" href="/dakshinakali/">
+							<Link className="nav-link" to="/dakshinakali/">
 								Dakshina Kali
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/devimathangi/">
+							<Link className="nav-link" to="/devimathangi/">
 								Devi Mathangi
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/devivarahi/">
+							<Link className="nav-link" to="/devivarahi/">
 								Devi Varahi
 							</Link>
 							<NavDropdown.Divider />
-							<Link className="nav-link" href="/devichandi/">
+							<Link className="nav-link" to="/devichandi/">
 								Devi Chandi
 							</Link>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action3">Sri (Lakshmi)</NavDropdown.Item>
+							<Link className="nav-link" to="/sri/">
+								Sri (Lakshmi)
+							</Link>
 						</NavDropdown>
-						<Link className="nav-link" href="/contact/">
+						<Link className="nav-link" to="/contact/">
 							Contact
 						</Link>
 					</Nav>

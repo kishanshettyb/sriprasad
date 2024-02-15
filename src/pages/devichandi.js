@@ -10,7 +10,7 @@ const devichandi = () => {
 				<Container>
 					<PageBanner title="Devi Chandi" />
 					<h2 className="display-2 fw-bolder text-center mb-5">Devi Siddha Kunjika Sadhana (Chandi)</h2>
-					<p className="fw-bold text-center display-5 special-title mt-5 ms-5 me-5">
+					<p className="fw-bold text-center   special-title-new mt-5 ms-5 me-5">
 						<span className="slash-left">iti</span> śrīrudrayāmalē gaurītantrē śivapārvatīsaṃvādē - <span className="slash-right">kuñjikāstōtraṃ</span>
 					</p>
 					<p>

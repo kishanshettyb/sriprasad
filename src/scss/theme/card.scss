@@ -402,10 +402,16 @@
 }
 
 .regular-ul {
+	&.list-none {
+		li {
+			list-style: none;
+		}
+	}
 	li {
 		padding-bottom: 5px;
 		font-size: 1rem;
 		font-weight: 500;
+
 		&:last-child {
 			padding-bottom: 0;
 		}

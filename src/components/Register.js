@@ -9,6 +9,8 @@ const Register = (props) => {
 	const dummylarge = "../images/dummy-large.png";
 	const kalavahana = "../images/banner/kalavahana-1.jpeg";
 	const vidhya = "../images/banner/vidhya.jpeg";
+	const sri = "../images/banner/sri-1.jpeg";
+	const temple = "../images/pages/temple/temple.jpeg";
 
 	return (
 		<section className="register-card">
@@ -23,10 +25,15 @@ const Register = (props) => {
 							<StaticImage className="register-card-image" src={`${kalavahana}`} alt="Page Banner" />
 						) : props.title === "Sri Vidhya Eshwari Sadhana" ? (
 							<StaticImage className="register-card-image" src={`${vidhya}`} alt="Page Banner" />
+						) : props.title === "sri" ? (
+							<StaticImage className="register-card-image" src={`${sri}`} alt="Page Banner" />
+						) : props.title === "Sri Vasukinaga Eswari Temple" ? (
+							<StaticImage className="register-card-image" src={`${temple}`} alt="Page Banner" />
 						) : (
 							<StaticImage className="register-card-image" src={`${dummylarge}`} alt="Page Banner" />
 						)}
 					</Col>
+
 					<Col xl={6} className="ps-lg-0">
 						<JotformEmbed src="https://form.jotform.com/240421983787062" />
 					</Col>

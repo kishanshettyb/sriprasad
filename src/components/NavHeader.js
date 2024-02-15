@@ -81,7 +81,9 @@ const NavHeader = () => {
 							</Link>
 						</NavDropdown>
 						<NavDropdown title="Spiritual Centre" id="navbarScrollingDropdown">
-							<NavDropdown.Item to="#action3">Sri Vasukinaga Eswari Temple</NavDropdown.Item>
+							<Link className="nav-link" to="/srivasukinagaeswaritemple/">
+								Sri Vasukinaga Eswari Temple
+							</Link>
 						</NavDropdown>
 						<NavDropdown title="Sadhana" id="navbarScrollingDropdown">
 							<Link className="nav-link" to="/dakshinakali/">

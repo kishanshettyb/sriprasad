@@ -311,7 +311,11 @@
 	iframe {
 		border-radius: 20px;
 	}
-
+	@media (min-width: 768px) {
+		iframe {
+			height: 600px !important;
+		}
+	}
 	@media (min-width: 1200px) {
 		iframe {
 			border-radius: 0 20px 20px 0;

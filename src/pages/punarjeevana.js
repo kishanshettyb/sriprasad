@@ -77,7 +77,8 @@ const punarjeevana = () => {
 							<StaticImage className="register-card-image" src="../images/banner/eshwari-kriya-banner.jpeg" alt="Page Banner" />
 						</Col>
 
-						<Col xl={6} className="ps-lg-0">
+						<Col xl={6} className="ps-lg-0 position-relative">
+							<div className="frame-footer"></div>
 							<JotformEmbed src="https://form.jotform.com/240461325963052" />
 						</Col>
 					</Row>

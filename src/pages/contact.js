@@ -12,7 +12,7 @@ const contact = () => {
 					<h2 className="display-2 fw-bolder text-center mb-5">Contact Us</h2>
 
 					<Row>
-						<Col md={12}>
+						<Col md={12} xl={12}>
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1601164656786!2d77.6031544!3d13.025473700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17f0d9a8d851%3A0xbda1fb3360802cda!2sI%20and%20You%20Administration%20Office!5e0!3m2!1sen!2sin!4v1707894214724!5m2!1sen!2sin"
 								allowfullscreen=""
@@ -21,7 +21,7 @@ const contact = () => {
 								referrerpolicy="no-referrer-when-downgrade"
 							></iframe>
 						</Col>
-						<Col md={6}>
+						<Col md={12} xl={12}>
 							<div className="contact-card">
 								<h2 className="fw-bold">Our Location</h2>
 								<hr />
@@ -80,9 +80,10 @@ const contact = () => {
 								</ul>
 							</div>
 						</Col>
-						<Col md={6}>
-							<div className="contact-card">
+						<Col md={12} xl={12}>
+							<div className="contact-card responsive position-relative">
 								<h2 className="fw-bold">Contact Form</h2>
+								<div className="contact-frame-footer"> </div>
 								<hr />
 								<JotformEmbed src="https://form.jotform.com/240461636495057" />
 							</div>

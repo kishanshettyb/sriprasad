@@ -34,7 +34,8 @@ const Register = (props) => {
 						)}
 					</Col>
 
-					<Col xl={6} className="ps-lg-0">
+					<Col xl={6} className="ps-lg-0 position-relative">
+						<div className="frame-footer"></div>
 						<JotformEmbed src="https://form.jotform.com/240461544692054" />
 					</Col>
 				</Row>

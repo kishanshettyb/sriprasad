@@ -112,3 +112,34 @@ footer {
 		}
 	}
 }
+
+.frame-footer {
+	width: calc(100% - 24px);
+	height: 115px;
+	position: absolute;
+	z-index: 111;
+	right: 12px;
+	bottom: 5px;
+	background-color: #f3f3fe;
+	border-radius: 0 0 20px 20px;
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) {
+		width: calc(100% - 24px);
+	}
+
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px) {
+		width: calc(100% - 12px);
+	}
+
+	// X-Large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) {
+		width: calc(100% - 12px);
+		border-radius: 0 0 20px 0;
+	}
+
+	// XX-Large devices (larger desktops, 1400px and up)
+	@media (min-width: 1400px) {
+	}
+}

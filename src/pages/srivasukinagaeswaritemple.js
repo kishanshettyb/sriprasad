@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
 import Register from "../components/Register";
-
+import templeVideo from "../images/pages/temple/video.mp4";
 const srivasukinagaeswaritemple = () => {
 	return (
 		<Layout>
@@ -199,6 +199,16 @@ const srivasukinagaeswaritemple = () => {
 						on this auspicious day, Deva parva at temple we will perform 7 Homas like Ganesha Homa, Navagraha Homa, Nava naga Homa, Subramanya Homa, Saptha rishi Homa, Sri rudra
 						Homa and Devi Chandika Homa for Individual, social, Nation, Nature and Cosmic wellbeing.{" "}
 					</p>
+					<Row className="py-5">
+						<Col md={6}>
+							<video controls className="br-20">
+								<source src={templeVideo} type="video/mp4" />
+							</video>
+						</Col>
+						<Col md={6}>
+							<StaticImage src="../images/pages/temple/img-1.jpeg" className="br-20 img-fluid" alt="Sri Vasukinaga Eswari Temple" />
+						</Col>
+					</Row>
 				</Container>
 			</section>
 			<section>

@@ -18,7 +18,7 @@ const PageBanner = (props) => {
 	const dummylarge = "../images/dummy-large.png";
 	const srinaada = "../images/banner/srinaada.png";
 	const sri = "../images/banner/sri.jpeg";
-	const vasukinaga = "../images/pages/temple/temple.jpeg";
+	const vasukinaga = "../images/pages/temple/img-3.jpeg";
 
 	return (
 		<section className="page-banner position-relative">

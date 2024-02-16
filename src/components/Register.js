@@ -35,7 +35,7 @@ const Register = (props) => {
 					</Col>
 
 					<Col xl={6} className="ps-lg-0">
-						<JotformEmbed src="https://form.jotform.com/240421983787062" />
+						<JotformEmbed src="https://form.jotform.com/240461544692054" />
 					</Col>
 				</Row>
 			</Container>

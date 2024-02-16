@@ -2,6 +2,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Layout from "../components/Layout";
+import JotformEmbed from "react-jotform-embed";
 
 const punarjeevana = () => {
 	return (
@@ -9,7 +10,7 @@ const punarjeevana = () => {
 			<section className="punarjeevana-section">
 				<Container>
 					<h2 className="display-2 fw-bolder text-center ">Punarjeevana</h2>
-					<p>"An Initiative to Restore Monuments"</p>
+					<p className="fw-bold fs-3 mb-5 text-center">"An Initiative to Restore Monuments"</p>
 					<Row>
 						<Col md={6}>
 							<StaticImage className="img-fluid images mb-2 br-20" src="../images/pages/before.jpeg" />
@@ -67,6 +68,19 @@ const punarjeevana = () => {
 						people. We wish to serve humanity to the maximum with Eshwari kriya a unique 20 minutes yogic technique and with that we wish to create a holistic society free of
 						disease, stress and Violence
 					</p>
+				</Container>
+			</section>
+			<section className="register-card">
+				<Container>
+					<Row>
+						<Col xl={6} className="pe-lg-0">
+							<StaticImage className="register-card-image" src="../images/banner/eshwari-kriya-banner.jpeg" alt="Page Banner" />
+						</Col>
+
+						<Col xl={6} className="ps-lg-0">
+							<JotformEmbed src="https://form.jotform.com/240461325963052" />
+						</Col>
+					</Row>
 				</Container>
 			</section>
 		</Layout>

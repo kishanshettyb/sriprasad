@@ -206,7 +206,7 @@ const srivasukinagaeswaritemple = () => {
 							</video>
 						</Col>
 						<Col md={6}>
-							<StaticImage src="../images/pages/temple/img-1.jpeg" className="br-20 img-fluid" alt="Sri Vasukinaga Eswari Temple" />
+							<StaticImage src="../images/pages/temple/img-4.jpeg" className="br-20 img-fluid" alt="Sri Vasukinaga Eswari Temple" />
 						</Col>
 					</Row>
 				</Container>

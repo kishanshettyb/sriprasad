@@ -84,7 +84,7 @@ const contact = () => {
 							<div className="contact-card">
 								<h2 className="fw-bold">Contact Form</h2>
 								<hr />
-								<JotformEmbed src="https://form.jotform.com/240431203986049" />
+								<JotformEmbed src="https://form.jotform.com/240461636495057" />
 							</div>
 						</Col>
 					</Row>

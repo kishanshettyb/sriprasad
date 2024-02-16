@@ -59,7 +59,7 @@ const eshwarikriya = () => {
 					</Row>
 					<Row className="align-items-center mb-5">
 						<Col md={6}>
-							<StaticImage className="img-fluid br-20" src="../images/banner/eshwari-kriya-banner.jpeg" alt="Eshwari Kriya" />
+							<StaticImage className="img-fluid br-20 mb-5 mb-md-0" src="../images/banner/eshwari-kriya-banner.jpeg" alt="Eshwari Kriya" />
 						</Col>
 						<Col md={6}>
 							<p>

@@ -6,8 +6,8 @@ import PageBanner from "../components/PageBanner";
 const srikari = () => {
 	return (
 		<Layout>
-			<PageBanner title="Navarathri" subTitle="" />
 			<section>
+				<PageBanner title="Navarathri" subTitle="" />
 				<Container>
 					<h2 className="w-75 m-auto display-2 fw-bolder text-center mb-5">A Scientific Yogic Practice during Navarathri</h2>
 					<p>Bharath is a such country here most of festivals are incorporated with Scientific knowledge, human values and Rituals based celebration .</p>

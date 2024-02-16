@@ -8,8 +8,8 @@ import Register from "../components/Register";
 const immortalprocess = () => {
 	return (
 		<Layout>
-			<PageBanner title="Immortal Process" subTitle="" />
 			<section>
+				<PageBanner title="Immortal Process" subTitle="" />
 				<Container>
 					<h2 className="display-2 fw-bolder text-center mb-5">Immortal Process</h2>
 					<p>

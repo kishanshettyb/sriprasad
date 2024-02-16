@@ -8,8 +8,8 @@ import templeVideo from "../images/pages/temple/video.mp4";
 const srivasukinagaeswaritemple = () => {
 	return (
 		<Layout>
-			<PageBanner title="Sri Vasukinaga Eswari Temple" />
 			<section>
+				<PageBanner title="Sri Vasukinaga Eswari Temple" />
 				<Container>
 					<h2 className="w-75 m-auto display-2 fw-bolder text-center mb-5">Sri Vasukinaga Eswari Temple</h2>
 					<Row className="mt-5 align-items-center">

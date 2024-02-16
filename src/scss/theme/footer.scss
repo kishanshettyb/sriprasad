@@ -93,8 +93,13 @@ footer {
 	}
 	.fixed-footer {
 		position: fixed;
-		right: 50px;
-		bottom: 50px;
+		right: 20px;
+		bottom: 20px;
+		z-index: 11111;
+		@media (min-width: 768px) {
+			right: 50px;
+			bottom: 50px;
+		}
 		a {
 			opacity: 1 !important;
 		}

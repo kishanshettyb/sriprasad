@@ -8,8 +8,8 @@ const devivarahi = () => {
 	return (
 		<Layout>
 			<section>
+				<PageBanner title="Devi Varahi" />
 				<Container>
-					<PageBanner title="Devi Varahi" />
 					<h2 className="display-2 fw-bolder text-center mb-5">Devi Varahi Sadhana</h2>
 					<p>
 						Varahi is one of the Saptha Matrikas, a group of seven goddesses in the Shakta Tredition. Bearing the head of a sow, Varahi is the shakti (feminine energy) of Varaha,

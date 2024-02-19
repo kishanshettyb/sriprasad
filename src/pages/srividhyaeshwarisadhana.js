@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
+import Register from "../components/Register";
 import { Seo } from "../components/Seo";
 
 const srividhyaeshwarisadhana = () => {
@@ -253,6 +254,7 @@ const srividhyaeshwarisadhana = () => {
 					</Row>
 				</Container>
 			</section>
+			<Register title="Sri Vidhya Eshwari Sadhana" />
 		</Layout>
 	);
 };

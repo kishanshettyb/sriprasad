@@ -8,8 +8,8 @@ import ApplyModal from "../components/ApplyModal";
 const srikari = () => {
 	return (
 		<Layout>
-			<PageBanner title="Sri Kari" subTitle="A time testified, traditional approach to manifesting intentions" />
 			<section>
+				<PageBanner title="Sri Kari" subTitle="A time testified, traditional approach to manifesting intentions" />
 				<Container>
 					<h2 className="w-75 m-auto display-2 fw-bolder text-center mb-2"> SriKari </h2>
 					<p className="text-center w-75 m-auto fw-bold fs-5 opacity-75 mb-5">

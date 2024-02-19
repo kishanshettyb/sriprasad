@@ -310,8 +310,13 @@
 	}
 	iframe {
 		border-radius: 20px;
+		height: 800px !important;
 	}
-
+	@media (min-width: 768px) {
+		iframe {
+			height: 600px !important;
+		}
+	}
 	@media (min-width: 1200px) {
 		iframe {
 			border-radius: 0 20px 20px 0;
@@ -402,17 +407,23 @@
 }
 
 .regular-ul {
+	&.list-none {
+		li {
+			list-style: none;
+		}
+	}
 	li {
 		padding-bottom: 5px;
 		font-size: 1rem;
 		font-weight: 500;
+
 		&:last-child {
 			padding-bottom: 0;
 		}
 	}
 }
 .para-card {
-	padding: 20px 0;
+	padding: 20px;
 	border: 1px solid #ddd;
 	background-color: #fff;
 	border-radius: 20px;

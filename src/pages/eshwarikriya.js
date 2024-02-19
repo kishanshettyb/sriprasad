@@ -5,6 +5,7 @@ import PageBanner from "../components/PageBanner";
 import { StaticImage } from "gatsby-plugin-image";
 import { Seo } from "../components/Seo";
 import ApplyModal from "../components/ApplyModal";
+import Register from "../components/Register";
 
 const eshwarikriya = () => {
 	return (
@@ -58,7 +59,7 @@ const eshwarikriya = () => {
 					</Row>
 					<Row className="align-items-center mb-5">
 						<Col md={6}>
-							<StaticImage className="img-fluid br-20" src="../images/banner/eshwari-kriya-banner.jpeg" alt="Eshwari Kriya" />
+							<StaticImage className="img-fluid br-20 mb-5 mb-md-0" src="../images/banner/eshwari-kriya-banner.jpeg" alt="Eshwari Kriya" />
 						</Col>
 						<Col md={6}>
 							<p>
@@ -241,6 +242,7 @@ const eshwarikriya = () => {
 					</Row>
 				</Container>
 			</section>
+			<Register title="Eshwari Kriya" />
 		</Layout>
 	);
 };

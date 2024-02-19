@@ -3,12 +3,13 @@ import { Container } from "react-bootstrap";
 import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import PageBanner from "../components/PageBanner";
+import Register from "../components/Register";
 
 const immortalprocess = () => {
 	return (
 		<Layout>
-			<PageBanner title="Immortal Process" subTitle="" />
 			<section>
+				<PageBanner title="Immortal Process" subTitle="" />
 				<Container>
 					<h2 className="display-2 fw-bolder text-center mb-5">Immortal Process</h2>
 					<p>
@@ -154,6 +155,7 @@ const immortalprocess = () => {
 					<p className="fw-bold fs-5  ">Jai Guru Dev</p>
 				</Container>
 			</section>
+			<Register title="Immortal Process" />
 		</Layout>
 	);
 };

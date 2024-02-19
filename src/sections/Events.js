@@ -92,12 +92,16 @@ const Events = () => {
 							</Link>
 						</Col>
 						<Col md={3}>
-							<Link to="/srinada/">
+							<Link to="/srinaada/">
 								<div className="basic-card">
 									<StaticImage className="card-image" src="../images/workshops/srinada.jpeg" alt="Sri Vidhya Eshwari Sadhana Level - 1" />
 									<div className="content">
 										<h2>Sri Naada </h2>
-										<p></p>
+										<p>
+											Firstly, we will learn the meaning of the words. "Tradition" is not weath, this is the hereditary that is passed on to today's generation as a debt from the
+											older generations, the responsibility lies our shoulders to pass on the culture to the upcoming generations, this finds necessity to be accepted by every
+											citizen within the society
+										</p>
 									</div>
 								</div>
 							</Link>

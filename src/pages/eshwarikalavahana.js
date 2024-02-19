@@ -3,13 +3,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import PageBanner from "../components/PageBanner";
+import Register from "../components/Register";
 
 const eshwarikalavahana = () => {
 	return (
 		<Layout>
-			<PageBanner title="Kalavahana" subTitle="" />
-
 			<section>
+				<PageBanner title="Kalavahana" subTitle="" />
 				<Container>
 					<h2 className="display-2 fw-bolder text-center mb-5">Eshwari Kalavahana</h2>
 
@@ -51,10 +51,10 @@ const eshwarikalavahana = () => {
 					</p>
 					<Row className="my-5">
 						<Col md={6}>
-							<StaticImage className="img-fluid br-20" src="../images/banner/kalavahana-1.jpeg" />
+							<StaticImage className="img-fluid br-20 mb-5 mb-md-0" src="../images/banner/kalavahana-1.jpeg" />
 						</Col>
 						<Col md={6}>
-							<StaticImage className="img-fluid br-20" src="../images/banner/kalavahana-2.jpeg" />
+							<StaticImage className="img-fluid br-20 mb-5 mb-md-0" src="../images/banner/kalavahana-2.jpeg" />
 						</Col>
 					</Row>
 
@@ -86,6 +86,7 @@ const eshwarikalavahana = () => {
 					<p className="mt-0">Jai Guru Dev</p>
 				</Container>
 			</section>
+			<Register title="Kalavahana" />
 		</Layout>
 	);
 };
